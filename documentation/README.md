@@ -29,6 +29,13 @@ Inside this file you will find: 'user persona', 'user scenarios' and 'user stori
 [View file](./uxDocumentation.md)
 
 
+### 2.3 Testing Documentation
+> Learning outcome: 
+
+todo
+[View file](./testingDocumentation.md)
+
+
 
 
 ### 2.2 User Persona 
