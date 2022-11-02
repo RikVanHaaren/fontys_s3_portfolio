@@ -1,3 +1,4 @@
+![MxBikesClient_Logo](../utils/MxBikesClient_Logo.png)
 # MxBikesClient
 
 ## Table of contents
