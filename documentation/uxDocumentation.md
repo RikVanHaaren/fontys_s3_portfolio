@@ -85,7 +85,11 @@ With this improvement I want to raise the popularity of the game and make sure t
 ## 2. User Scenarios
 The user scenarios are based on the persona created above. The scenarios describes a realistic situations relevent to the design of a solution.
 
-![scenario subscribeMod](../utils/scenario_subscribeMod.png)
+![scenario subscribeMod method 1](../utils/scenario_subscribeMod-method_1.png)
+![scenario unsubscribeMod method 2](../utils/scenario_subscribeMod-method_2.png)
+![scenario subscribeMod method 1](../utils/scenario_unsubscribeMod-method_1.png)
+![scenario unsubscribeMod method 2](../utils/scenario_unsubscribeMod-method_2.png)
+
 
 ## 3. User Stories
 These user stories are written in the view of a persona, the differ between a user (inspirited by the persona created above) and a administrator.
