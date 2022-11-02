@@ -9,10 +9,17 @@ I am going to develop a web store where user of the community “MX bikes” can
 - [1. Introduction](#1-introduction)
 
 ##  1. Introduction
+This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. 
+
+### 1.1 Requirements 
+> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
+
+Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
+[View file](./requirements.md)
 
 
-### 1.1 This is an example 
-> Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#5-Cultural-differences-and-ethics)
+### 1.2 Requirements 
+> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
-is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
-[View file]()
+Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
+[View file](./requirements.md)
