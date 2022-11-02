@@ -7,7 +7,15 @@ I am going to develop a web store where user of the community “MX bikes” can
 
 ## Table of contents
 - [1. Introduction](#1-introduction)
-
+- [2. Project Documentation](#2-Project-Documentation)
+  - [2.1 Requirements](#21-Requirements)
+  - [2.2 UX Documentation](#22-UX-Documentation)
+  - [2.3 Architecture Design Document](#23-Architecture-Design-Document)
+  - [2.4 Testing Documentation](#24-Testing-Documentation)
+- [3. Process Documentation](#3-Process-Documentation)
+  - [3.1 Roadmap](#31-Roadmap)
+  - [3.2 Metrics](#32-Metrics)
+  - [3.3 Standards](#33-Standards)
 
 ##  1. Introduction
 This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
@@ -29,7 +37,10 @@ Inside this file you will find: 'user persona', 'user scenarios' and 'user stori
 [View file](./uxDocumentation.md)
 
 
-### 2.3 Testing Documentation
+### 2.3 Architecture Design Document
+
+
+### 2.4 Testing Documentation
 > Learning outcome: 
 
 todo
@@ -38,19 +49,6 @@ todo
 
 
 
-### 2.2 User Persona 
-> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design), [Professional](/learningOutcomes.md#8-Professional)
-
-Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
-[View file](./userPersona.md)
-
-### 2.3 User Scenarios
-
-### 2.4 User Stories
-
-### 2.5 Architecture Design
-
-### 2.5 Testing Documentation
 
 
 
@@ -59,6 +57,6 @@ Inside this file you can read about the functional and non functional requiremen
 
 ### 3.1 Roadmap
 
-### 3.1 Metrics
+### 3.2 Metrics
 
-### 3.1 Standards
+### 3.3 Standards
