@@ -9,7 +9,7 @@ I am going to develop a web store where user of the community “MX bikes” can
 - [1. Introduction](#1-introduction)
 
 ##  1. Introduction
-This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. 
+This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
 
 ### 1.1 Requirements 
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
@@ -18,8 +18,10 @@ Inside this file you can read about the functional and non functional requiremen
 [View file](./requirements.md)
 
 
-### 1.2 Requirements 
-> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
+### 1.2 User Persona 
+> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design), [Professional](/learningOutcomes.md#8-Professional)
 
 Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
-[View file](./requirements.md)
+[View file](./userPersona.md)
+
+
