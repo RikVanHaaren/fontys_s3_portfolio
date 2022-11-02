@@ -22,6 +22,7 @@ This document is used as a guide for the directory. In the chapters below you ca
 Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
 [View file](./requirements.md)
 
+### 2.2 UX Documentation
 
 ### 2.2 User Persona 
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design), [Professional](/learningOutcomes.md#8-Professional)
@@ -29,4 +30,21 @@ Inside this file you can read about the functional and non functional requiremen
 Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
 [View file](./userPersona.md)
 
+### 2.3 User Scenarios
 
+### 2.4 User Stories
+
+### 2.5 Architecture Design
+
+### 2.5 Testing Documentation
+
+
+
+
+## 3. Process Documentation
+
+### 3.1 Roadmap
+
+### 3.1 Metrics
+
+### 3.1 Standards
