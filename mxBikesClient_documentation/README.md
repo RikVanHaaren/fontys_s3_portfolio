@@ -23,7 +23,6 @@ This document is used as a guide for the directory. In the chapters below you ca
 
 ## 2. Project Documentation
 
-
 ### 2.1 Requirements 
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
@@ -50,12 +49,6 @@ This project is written with the Test driven development in mind. The tests are 
 [View file](./testingDocumentation.md) (🚧 this file is still under construction)
 
 
-
-
-
-
-
-
 ## 3. Process Documentation
 
 ### 3.1 Roadmap
@@ -65,5 +58,6 @@ Is is imported to have a roadmap in large projects so you get an understanding w
 [View file](./roadmap.md) (🚧 this file is still under construction)
 
 ### 3.2 Metrics
+
 
 ### 3.3 Standards
