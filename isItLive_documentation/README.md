@@ -17,7 +17,7 @@ Live score is a metric to see how much content we have realized internally can b
 This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
 
 ## 2. Albertheijn Scrapper
-One of my task was to create a scrappers that gets the product from AlbertHeijn webshop. Is is importend to document these steps because the team needs to use in the main application.
+One of my task was to create a scrappers that gets the product from AlbertHeijn webshop. Is is importend to document these steps because the team needs to use in the main application.   
 [View project](https://github.com/RikVanHaaren/ah_shop_api)
 
 ### 2.1 Software/ Component Design
