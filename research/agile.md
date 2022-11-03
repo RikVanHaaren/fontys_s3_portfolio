@@ -46,7 +46,7 @@ The 12 principles are listed below,
 
 
 ### 3.1 Scrum
-Accourding to : "To understand the philosophy behind Scrum, it’s helpful to consider its origin. ‘Scrum’ is a rugby term that refers to a formation in which each player has a particular role. However, every member works together to achieve the same goal." <sup>[[3]](#3-Source)</sup>
+Accourding to Tsonev, N.: "To understand the philosophy behind Scrum, it’s helpful to consider its origin. ‘Scrum’ is a rugby term that refers to a formation in which each player has a particular role. However, every member works together to achieve the same goal." <sup>[[3]](#3-Source)</sup>
 
 **Benefits** 
 1) It prescribes time-boxed iterations.
@@ -94,5 +94,4 @@ Kanban is a Agile framework that focus on visualizing the entire project on boar
 ## 3 Source
 1. Atlassian. (n.d.). What is Agile? Retrieved November 3, 2022, from https://www.atlassian.com/agile
 2. Manifesto for Agile Software Development. (n.d.). Retrieved November 3, 2022, from https://agilemanifesto.org/
-3. Rankin, T. (2019, October 10). How to Use the Scrum Methodology to Boost Your Team’s Productivity (In 6 Steps). Torque. https://torquemag.io/2019/10/scrum-methodology-guide/
-4. Tsonev, N. (2022, June 15). What Is Scrum? Everything You Need to Know. Kanbanize Blog. https://kanbanize.com/blog/scrum/
+3. Tsonev, N. (2022, June 15). What Is Scrum? Everything You Need to Know. Kanbanize Blog. https://kanbanize.com/blog/scrum/
