@@ -35,7 +35,7 @@ For the subject of cultrural differences an Ethics I have done some research to 
 ### Business Processes
 > Learning outcome: [Business Processes](/learningOutcomes.md#7-Business-processes)
 
-It was importent to relate the business processes to the development of my software project. In this document you can read about my research of business processes and how to create one. 
+It was importent to relate the business processes to the development of my software project. In this document you can read about my research of business processes and how to create one.   
 [View file](./research/businessProcesses.md)
 
 ## 3. Individual Project (MxBikesClient)
