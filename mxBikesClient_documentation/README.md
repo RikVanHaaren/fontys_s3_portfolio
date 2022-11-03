@@ -33,7 +33,7 @@ Inside this file you can read about the functional and non functional requiremen
 ### 2.2 UX Documentation
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design), [Professional](/learningOutcomes.md#8-Professional), [Agile method](/learningOutcomes.md#3-Agile-method)
 
-Inside this file you will find: 'user persona', 'user scenarios' and 'user stories'. The content is deticated towards the perspectief of the and user.     
+Inside this file you will find: 'user persona', 'user scenarios' and 'user stories'. The content is deticated towards the perspectief of the end user.     
 [View file](./uxDocumentation.md)
 
 
