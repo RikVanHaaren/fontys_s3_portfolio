@@ -28,7 +28,7 @@ During this semster we worked based on a agile methodology. Because there are lo
 ### 2.2 Cultural Differences and Ethics
 > Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#5-Cultural-differences-and-ethics)
 
-For the subject of cultrural differences an Ethics I have done some research to understand it better and use it for my projects. In this file you can read the definition and my personal experiences.
+For the subject of cultrural differences an Ethics I have done some research to understand it better and use it for my projects. In this file you can read the definition and my personal experiences.   
 [View file](./research/culturalDifferencesAndEtics.md)
 
 
