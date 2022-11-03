@@ -1,23 +1,11 @@
 # Architecture Design
-> 
+##  1. C4 model
 
-todo
-
-
-## Table of contents
-- [1. Introduction](#1-introduction)
-- [2. Project Documentation](#2-Project-Documentation)
-  - [2.1 Requirements](#21-Requirements)
-
-
-##  1. Introduction
-TODO
-
-##  2. C4 model
-
-### 2.1 Context
+### 1.1 Context
+Below you can see the System Context Diagram of the software.
 ![](../utils/systemContexDiagram.png)
 
-### 2.2 Container
+### 1.2 Container
+Below you can see a deeper view on what containers the application contains.
 ![](../utils/containerDiagram.png)
 
