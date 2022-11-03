@@ -8,31 +8,32 @@ Live score is a metric to see how much content we have realized internally can b
 
 ## Table of contents
 - [1. Introduction](#1-introduction)
-- [2. Project Documentation](#2-Project-Documentation)
-  - [2.1 Requirements](#21-Requirements)
-  - [2.2 UX Documentation](#22-UX-Documentation)
-  - [2.3 Architecture Design Document](#23-Architecture-Design-Document)
-  - [2.4 Testing Documentation](#24-Testing-Documentation)
-- [3. Process Documentation](#3-Process-Documentation)
-  - [3.1 Roadmap](#31-Roadmap)
-  - [3.2 Metrics](#32-Metrics)
-  - [3.3 Standards](#33-Standards)
+- [2. Albertheijn Scrapper](#2-Albertheijn-Scrapper)
+  - [2.1 Software/ Component Design](#21-Software-Component-Design)
+  - [2.2 Software Quality](#22-Software-Quality)
+  - [2.3 CI/CD](#23-CICD)
 
 ##  1. Introduction
 This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
 
-## Albertheijn Scrapper
+## 2. Albertheijn Scrapper
 
 [View project](https://github.com/RikVanHaaren/ah_shop_api)
 
+### 2.1 Software/ Component Design
+This scrapper is installed as an package but is used inside the project as process. Because I tested en created this process I needed a way to explain it easy to the colleagues.
 
-### .1 Software Quality
+<img src="../utils/topView_albertHeijnScrapper.png" alt="Top View" width="705" />
+
+<img src="../utils/syncProduct_albertHeijnScrapper.png" alt="Sync Product Flow" width="355" /> <img src="../utils/linkProduct_albertHeijnScrapper.png" alt="Link Product Flow" width="350" />
+
+### 2.2 Software Quality
 > Learning outcome: [Software quality](/learningOutcomes.md#4-Software-quality)
 
 To assure good software quality and performance for this scrapper, I have written a number of tests. When I run these test it will result me in a test how much of the code is coverd and how much of these test failed or pass. With this feature I can solve problems faster and assure our them that I have tested what I created.
 ![Code coverage rapport](../utils/codeCoverage_albertHeijnScrapper.png)
 
-### .2 CI/CD
+### 2.3 CI/CD
 > Learning outcome: [CI/CD](/learningOutcomes.md#4-CI-CD)
 
 Continuous Integration and Continuous Delivery is an importend aspect of this project because this scrapper is a component. There for I have created 2 workflows:
