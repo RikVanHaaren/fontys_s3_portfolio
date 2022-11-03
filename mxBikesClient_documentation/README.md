@@ -27,7 +27,7 @@ This document is used as a guide for the directory. In the chapters below you ca
 ### 2.1 Requirements 
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
-Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.   
+Inside this file you can read about the functional and non functional requirements. These requirements define the purpose and outcome of the product and what I am building.    
 [View file](./requirements.md)
 
 ### 2.2 UX Documentation
@@ -61,7 +61,7 @@ todo
 ### 3.1 Roadmap
 > Learning outcome: [Professional](/learningOutcomes.md#8-Professional), [Agile method](/learningOutcomes.md#3-Agile-method)
 
-Is is imported to have a roadmap in large projects so you get an understanding where you are and where you want to be. Inside this file you can read about 3 roadmaps to keep track of the project. 
+Is is imported to have a roadmap in large projects so you get an understanding where you are and where you want to be. Inside this file you can read about 3 roadmaps to keep track of the project.   
 [View file](./roadmap.md) (🚧 this file is still under construction)
 
 ### 3.2 Metrics
