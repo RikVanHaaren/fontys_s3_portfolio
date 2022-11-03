@@ -1,7 +1,9 @@
 # Testing Documentation
 
 ## Table of contents
-- [1. Introduction](#1-introduction)
+- [1. Introduction](#1-Introduction)
+- [1. Test Plan](#1-Test-Plan)
+- [1. Test Cases](#1-Test-Cases)
 
 ##  1. Introduction
 
