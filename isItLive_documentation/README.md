@@ -29,8 +29,7 @@ This document is used as a guide for the directory. In the chapters below you ca
 ### .1 Software Quality
 > Learning outcome: [Software quality](/learningOutcomes.md#4-Software-quality)
 
-Inside this project I use 
-
+To assure good software quality and performance for this scrapper, I have written a number of tests. When I run these test it will result me in a test how much of the code is coverd and how much of these test failed or pass. With this feature I can solve problems faster and assure our them that I have tested what I created.
 ![Code coverage rapport](../utils/codeCoverage_albertHeijnScrapper.png)
 
 ### .2 CI/CD
