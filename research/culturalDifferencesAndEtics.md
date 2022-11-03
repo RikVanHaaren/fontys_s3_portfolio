@@ -14,6 +14,3 @@ Cultural universals are found in all human societies. It can express itself in f
 ## Personal experiences
 When I hear the about the topic cultural differences, I always immediately think of someone living in a diffrent country migrating to another. 
 This is because the 2 diffrent world touches each other that have norms and values.
-
-I feel that cultural differences 
-I grew up in a small villages where my only interaction was with Dutch people.
