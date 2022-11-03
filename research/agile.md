@@ -63,7 +63,7 @@ Accourding to : "To understand the philosophy behind Scrum, it’s helpful to co
 
 
 ### 3.2 Kanban
-> David J. Anderson (a pioneer in the field of Lean/ Kanban for knowledge work and one of the founding fathers of the method) has formulated the Kanban method as an approach to incremental, evolutionary process and systems change for knowledge work organizations. It is focused on getting things done, and its fundamentals can be broken down into two types of principles and six practices.
+Kanban is a Agile framework that focus on visualizing the entire project on boards in order to increase project transparency and collaboration between team members.
 
 **Benefits** 
 1) Timeboxed iteration is not compulsory.
@@ -90,31 +90,6 @@ Accourding to : "To understand the philosophy behind Scrum, it’s helpful to co
 
 ### 3.4 Lean Development
 
-### 3.5 Crystal
-Crystal is considered a lightweight or agile methodology that focuses on individuals and their interactions. The methods are color-coded to significant risk to human life. It is mainly for short-term projects by a team of developers working out of a single workspace.
-Two core beliefs of the Crystal method :
-1) Find your own way and methods to optimize workflow.
-2) Make use of unique methods to make the project unique and dynamic.
-
-Crystel clear
-1) *Crystal Clear-* The team consists of only 1-6 members that is suitable for short-term projects where members work out in a single workspace.
-2) *Crystal Yellow-* It has a small team size of 7-20 members, where feedback is taken from Real Users. This variant involves automated testing which resolves bugs faster and reduces the use of too much documentation.
-3) *Crystal Orange-* It has a team size of 21-40 members, where the team is split according to their functional skills. Here the project generally lasts for 1-2 years and the release is required every 3 to 4 months.
-4) *Crystal Orange Web-* It has also a team size of 21-40 members were the projects that have a continually evolving code base that is being used by the public. It is also similar to Crystal Orange but here they do not deal with a single project but a series of initiatives that required programming.
-5) *Crystal Red-* The software development is led by 40-80 members where the teams can be formed and divided according to requirements.
-6) *Crystal Maroon-* It involves large-sized projects where the team size is 80-200 members and where methods are different and as per the requirement of the software.
-7) *Crystal Diamond & Sapphire-* This variant is used in large projects where there is a potential risk to human life.
-
-![Crystal Diagram](../utils/crystalDiagram.png)
-
-**Benefits** 
-1) Allows teams to work the way they deem most effective
-2) Facilitates direct team communication, transparency and accountability
-3) The adaptive approach lets teams respond well to changing requirements
-
-**disadvantages**
-1) Lack of pre-defined plans can lead to scope creep
-2) Lack of documentation can lead to confusion
 
 ## 3 Source
 1. Atlassian. (n.d.). What is Agile? Retrieved November 3, 2022, from https://www.atlassian.com/agile
