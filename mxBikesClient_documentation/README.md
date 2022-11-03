@@ -58,6 +58,9 @@ Is is imported to have a roadmap in large projects so you get an understanding w
 [View file](./roadmap.md) (🚧 this file is still under construction)
 
 ### 3.2 Metrics
-
+Metrics are main tools of the agile development proccess that help spot any bottle necks and problems in the code quality before they stall the whole project. Inside this file you can read about these aspects that the project encountered.
+[View file](./metrics.md) (🚧 this file is still under construction)
 
 ### 3.3 Standards
+It is importend to document the best pratices so that the team can follow every aspect regardless, of when someone joins the project with less experience. This document is all about that.   
+[View file](./standards.md) (🚧 this file is still under construction)
