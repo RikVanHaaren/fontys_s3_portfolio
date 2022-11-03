@@ -7,9 +7,12 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 ## Table of contents
 - [1. Introduction](#1-Introduction)
 - [2. Research](#1-Research)
-  - [2.1 Agile methodology](#1-Agile-methodology)
-  - [2.2 Cultural Differences and Ethics](#1-Cultural-Differences-and-Ethics)
-  - [2.3 Business Processes](#1-Business-Processes)
+  - [2.1 Agile methodology](#21-Agile-methodology)
+  - [2.2 Cultural Differences and Ethics](#22-Cultural-Differences-and-Ethics)
+  - [2.3 Business Processes](#23-Business-Processes)
+- [3. Individual Project (MxBikesClient)](#3-Individual-Project-(MxBikesClient))
+- [4. Group Project (IsItLive)](#4-Group-Project-(IsItLive))
+- [5. Reflection](#5-Reflection)
 
 ##  1. Introduction
 This document focuses on the learning outcomes of this semster. Every chapter describes what learning outcomes I acquired and how I did it with a file redirection at the bottom.
