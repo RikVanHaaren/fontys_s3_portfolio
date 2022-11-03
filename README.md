@@ -10,8 +10,8 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
   - [2.1 Agile methodology](#21-Agile-methodology)
   - [2.2 Cultural Differences and Ethics](#22-Cultural-Differences-and-Ethics)
   - [2.3 Business Processes](#23-Business-Processes)
-- [3. Individual Project (MxBikesClient)](#3-Individual-Project-(MxBikesClient))
-- [4. Group Project (IsItLive)](#4-Group-Project-(IsItLive))
+- [3. Individual Project (MxBikesClient)](#3-Individual-Project-MxBikesClient)
+- [4. Group Project (IsItLive)](#4-Group-Project-IsItLive)
 - [5. Reflection](#5-Reflection)
 
 ##  1. Introduction
