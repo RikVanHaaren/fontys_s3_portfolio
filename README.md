@@ -30,7 +30,8 @@ During this semster we worked based on a agile methodology. Because there are lo
 ### Business Processes
 
 ## 3. Individual Project (MxBikesClient)
-
+For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it. 
+[View file](./documentation/README.md)
 
 ## 4. Group Project (IsItLive)
 
