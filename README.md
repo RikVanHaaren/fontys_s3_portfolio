@@ -26,16 +26,21 @@ During this semster we worked based on a agile methodology. Because there are lo
 [View file](./research/agile.md)
 
 ### Cultural Differences and Ethics
+> Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#5-Cultural-differences-and-ethics)
+
+For the subject of cultrural differences an Ethics I have done some research to understand it better and use it for my projects. In this file you can read the definition and my personal experiences.
+[View file](./research/culturalDifferencesAndEtics.md)
+
 
 ### Business Processes
 
 ## 3. Individual Project (MxBikesClient)
 For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it.   
-[View file](./documentation/README.md)
+[View project](./documentation/README.md)
 
 ## 4. Group Project (IsItLive)
 For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it.   
-[View file](./isItLive_documentation/README.md)
+[View project](./isItLive_documentation/README.md)
 
 ## 5. Reflection
 
