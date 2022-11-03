@@ -18,6 +18,7 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 This document focuses on the learning outcomes of this semster. Every chapter describes what learning outcomes I acquired and how I did it with a file redirection at the bottom.
 
 ## 2. Research
+In this section you can read about the learning goals research to implement them. Inside the project you can see how I implement them.
 
 ### 2.1 Agile methodology
 > Learning outcome: [Agile method](/learningOutcomes.md#3-Agile-method)
