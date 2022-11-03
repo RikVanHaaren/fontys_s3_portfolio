@@ -7,15 +7,12 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 ## Table of contents
 - [1. Introduction](#1-Introduction)
 - [2. Research](#1-Research)
+  - [2.1 Agile methodology](#1-Agile-methodology)
+  - [2.2 Cultural Differences and Ethics](#1-Cultural-Differences-and-Ethics)
+  - [2.3 Business Processes](#1-Business-Processes)
 
 ##  1. Introduction
-This document focuses on the learning outcomes of this semster. Every chapter describes what learning outcomes I acquired and how I did it with a file redirection at the bottom. 
-
-### 1.1 This is an example 
-> Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#5-Cultural-differences-and-ethics)
-
-is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
-[View file]()
+This document focuses on the learning outcomes of this semster. Every chapter describes what learning outcomes I acquired and how I did it with a file redirection at the bottom.
 
 ## 2. Research
 
@@ -25,14 +22,14 @@ is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b
 During this semster we worked based on a agile methodology. Because there are lot of methodology I was required to do some research wich one was the best option for my projects. So I took the most popular methods and wrote the advantage and disadvantage Inside you can read about the "agile iterative approach to project management and software development" and the different "methodologies".  
 [View file](./research/agile.md)
 
-### Cultural Differences and Ethics
+### 2.2 Cultural Differences and Ethics
 > Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#5-Cultural-differences-and-ethics)
 
 For the subject of cultrural differences an Ethics I have done some research to understand it better and use it for my projects. In this file you can read the definition and my personal experiences.
 [View file](./research/culturalDifferencesAndEtics.md)
 
 
-### Business Processes
+### 2.3 Business Processes
 > Learning outcome: [Business Processes](/learningOutcomes.md#7-Business-processes)
 
 It was importent to relate the business processes to the development of my software project. In this document you can read about my research of business processes and how to create one.   
