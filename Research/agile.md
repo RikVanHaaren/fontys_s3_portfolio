@@ -49,23 +49,72 @@ The 12 principles are listed below,
 Accourding to : "To understand the philosophy behind Scrum, it’s helpful to consider its origin. ‘Scrum’ is a rugby term that refers to a formation in which each player has a particular role. However, every member works together to achieve the same goal." <sup>[[3]](#3-Source)</sup>
 
 **Benefits** 
-1. *Adaptability* – the Scrum process is iterative and the goal is to release a potentially shippable product at the end of each cycle (sprint). This opens up a feedback loop in the process where teams gather new requirements from customers or adapt to changes.
-2. *Accelerated Delivery* – In Scrum, the time to market is significantly reduced compared to traditional project management. Most cycles (sprints) continue between 2-4 weeks and teams’ goal is to deliver something functional within that period.
-3. *Improved ROI* – Scrum combines frequent market delivery with the idea to release the most valuable functions of a product first. Therefore companies can start realizing profits from a given solution before it’s fully developed. This results in a competitive advantage and increased ROI.
-4. *Satisfying Customer Expectations* – One of the main traits of Scrum teams is that they work in sprints and look to deliver working products frequently. As a result, customers can inspect them early in the process and return their feedback. This contributes to building higher-quality products that meet expectations.
-5. *Lower Costs* – Continuing from the last point, due to the ability to continuously gain feedback, Scrum also allows teams to deal with risks or defects in a timely manner. This reduces the likelihood of reworks which decreases project costs.
+1) It prescribes time-boxed iterations.
+2) Cross-functional Scrum team.
+3) Velocity is the default metric for process improvement and planning.
+4) The scrum team faces a particular workload in an iteration.
+5) Break down of items so that you can complete them in one sprint.
+6) After every sprint, the board rests.
+7) One can’t add new items to ongoing iterations.
+8) A specific team owns the sprint backlog.
+9) The product backlog is prioritized as prescribed in Scrum.
 
 [(Tsonev, 2022)](#3-Source)
 
 
 ### 3.2 Kanban
+> David J. Anderson (a pioneer in the field of Lean/ Kanban for knowledge work and one of the founding fathers of the method) has formulated the Kanban method as an approach to incremental, evolutionary process and systems change for knowledge work organizations. It is focused on getting things done, and its fundamentals can be broken down into two types of principles and six practices.
+
+**Benefits** 
+1) Timeboxed iteration is not compulsory.
+2) Rather than being time-boxed, Kanban is event-driven.
+3) There are different cadences for release, process improvement, and planning.
+4) Commitment is optional.
+5) Lead time is the default metric for process improvement and planning.
+6) Optional cross-functional team, but teams allow specialists.
+7) No particular diagram or item size is prescribed in Kanban.
+8) Kanban has a natural workflow state with limited WIP.
+9) Estimation is optional
+10) You can always add new items whenever there’s the capacity to do that.
+11) Individuals and multiples teams can share the Kanban board.
+12) It doesn’t prescribe specific roles.
+13) Persistency in Kanban board.
+14) Prioritization is optional
+
+**disadvantages**
+1) The board has to be up-to-date because an outdated Kanban board may cause issues in the process of development.
+2) Sometimes, the board can become too complicated for the Kanban team.
+3) There is no timing, so the different phases don’t have timeframes attached to them.
 
 ### 3.3 Extreme Programming (XP)
 
 ### 3.4 Lean Development
 
 ### 3.5 Crystal
+Crystal is considered a lightweight or agile methodology that focuses on individuals and their interactions. The methods are color-coded to significant risk to human life. It is mainly for short-term projects by a team of developers working out of a single workspace.
+Two core beliefs of the Crystal method :
+1) Find your own way and methods to optimize workflow.
+2) Make use of unique methods to make the project unique and dynamic.
 
+Crystel clear
+1) *Crystal Clear-* The team consists of only 1-6 members that is suitable for short-term projects where members work out in a single workspace.
+2) *Crystal Yellow-* It has a small team size of 7-20 members, where feedback is taken from Real Users. This variant involves automated testing which resolves bugs faster and reduces the use of too much documentation.
+3) *Crystal Orange-* It has a team size of 21-40 members, where the team is split according to their functional skills. Here the project generally lasts for 1-2 years and the release is required every 3 to 4 months.
+4) *Crystal Orange Web-* It has also a team size of 21-40 members were the projects that have a continually evolving code base that is being used by the public. It is also similar to Crystal Orange but here they do not deal with a single project but a series of initiatives that required programming.
+5) *Crystal Red-* The software development is led by 40-80 members where the teams can be formed and divided according to requirements.
+6) *Crystal Maroon-* It involves large-sized projects where the team size is 80-200 members and where methods are different and as per the requirement of the software.
+7) *Crystal Diamond & Sapphire-* This variant is used in large projects where there is a potential risk to human life.
+
+![Crystal Diagram](../utils/crystalDiagram.png)
+
+**Benefits** 
+1) Allows teams to work the way they deem most effective
+2) Facilitates direct team communication, transparency and accountability
+3) The adaptive approach lets teams respond well to changing requirements
+
+**disadvantages**
+1) Lack of pre-defined plans can lead to scope creep
+2) Lack of documentation can lead to confusion
 
 ## 3 Source
 1. Atlassian. (n.d.). What is Agile? Retrieved November 3, 2022, from https://www.atlassian.com/agile
