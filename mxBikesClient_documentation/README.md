@@ -38,13 +38,13 @@ Inside this file you will find: 'user persona', 'user scenarios' and 'user stori
 
 
 ### 2.3 Architecture Design Document
-> Learning outcome: 
+> Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
 todo
 [View file](./architectureDesignDocument.md)
 
 ### 2.4 Testing Documentation
-> Learning outcome: 
+> Learning outcome: [Software quality](/learningOutcomes.md#4-Software-quality)
 
 todo
 [View file](./testingDocumentation.md)
