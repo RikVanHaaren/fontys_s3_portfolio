@@ -1,21 +1,9 @@
-# fontys_s3_portfolio
-Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineering
-- Created By: Rik van Haaren
-- Hans van Heumen, Mark van Grootel
-
-
 # Agile Methodology
 
-## Table of contents
-- [1. Introduction](#1-introduction)
-
-##  1. Introduction
-
-
-## 2. Agile
+## 1. Agile
 According to Atlassian: "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly." <sup>[[1]](#3-Source)</sup>
 
-### 2.1 Agile manifesto
+### 1.1 Agile manifesto
 The agile manifesto exist of 12 principles and 4 principles that are listed below:
 The 4 agile values are listed below,
 1) **Individuals and interactions** over processes and tools
@@ -42,10 +30,10 @@ The 12 principles are listed below,
 [(Manifesto for Agile Software Development, n.d.)](#3-Source)
 
 
-## 3. Agile Methodologies
+## 2. Agile Methodologies
 
 
-### 3.1 Scrum
+### 2.1 Scrum
 Accourding to Tsonev, N.: "To understand the philosophy behind Scrum, it’s helpful to consider its origin. ‘Scrum’ is a rugby term that refers to a formation in which each player has a particular role. However, every member works together to achieve the same goal." <sup>[[3]](#3-Source)</sup>
 
 **Benefits** 
@@ -62,7 +50,7 @@ Accourding to Tsonev, N.: "To understand the philosophy behind Scrum, it’s hel
 [(Tsonev, 2022)](#3-Source)
 
 
-### 3.2 Kanban
+### 2.2 Kanban
 Kanban is a Agile framework that focus on visualizing the entire project on boards in order to increase project transparency and collaboration between team members.
 
 **Benefits** 
@@ -86,9 +74,9 @@ Kanban is a Agile framework that focus on visualizing the entire project on boar
 2) Sometimes, the board can become too complicated for the Kanban team.
 3) There is no timing, so the different phases don’t have timeframes attached to them.
 
-### 3.3 Extreme Programming (XP)
+### 2.3 Extreme Programming (XP)
 
-### 3.4 Lean Development
+### 2.4 Lean Development
 
 
 ## 3 Source
