@@ -19,7 +19,7 @@ is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b
 
 ## 2. Research
 
-### 2.1 Agile method
+### 2.1 Agile methodology
 > Learning outcome: [Agile method](/learningOutcomes.md#3-Agile-method)
 
 During this semster we worked based on a agile methodology. Because there are lot of methodology I was required to do some research wich one was the best option for my projects. Inside you can read about the "agile iterative approach to project management and software development" and the different "methodologies". 
