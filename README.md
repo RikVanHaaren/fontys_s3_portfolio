@@ -34,7 +34,8 @@ For my individual project I had chosen an idea that I wanted to create for a lon
 [View file](./documentation/README.md)
 
 ## 4. Group Project (IsItLive)
-
+For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it. 
+[View file](./isItLive_documentation/README.md)
 
 ## 5. Reflection
 
