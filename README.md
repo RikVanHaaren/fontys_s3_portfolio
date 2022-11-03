@@ -33,6 +33,10 @@ For the subject of cultrural differences an Ethics I have done some research to 
 
 
 ### Business Processes
+> Learning outcome: [Cultural differences and ethics](/learningOutcomes.md#7-Business-processes)
+
+It was importent to relate the business processes to the development of my software project. In this document you can read about my research of business processes and how to create one. 
+[View file](./research/businessProcesses.md)
 
 ## 3. Individual Project (MxBikesClient)
 For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it.   
