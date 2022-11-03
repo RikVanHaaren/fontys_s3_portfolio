@@ -48,4 +48,12 @@ For the group project we got an asignment from [World of Content](https://worldo
 [View project](./isItLive_documentation/README.md)
 
 ## 5. Reflection
+In this project I had a lot of big ideas that I could imagine all day long. But when I needed to work on it there was to much to get started. It is sometimes hard to get track on whats need to be done, if this seems to much it is a habbit of my to delay it to the next day. Normally when I have a dead line know how long it would take and work really hard to get it done. This time I forgot I needed to deliver this portfolio today. There wasn't enough time to get deliver someting I am proud of. 
+
+This was a real wake up call for me because I never mist a dead line and came to the conclusion how much futher the rest of the students are. The next couple of weeks I will update my portfolio so that I have a better base to show that I acquired all learning outcomes. Also I will add the given feedback ill get from the tutors and work hard on my individual project to show at least a good demo.
+
+
+
+
+
 
