@@ -40,7 +40,7 @@ Inside this file you will find: 'user persona', 'user scenarios' and 'user stori
 ### 2.3 Architecture Design Document
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
-todo
+This project is based on a complex architecture that is difficult to understand. In this document there are multiple diagrams that help you visualize it.
 [View file](./architectureDesignDocument.md) 
 
 ### 2.4 Testing Documentation
