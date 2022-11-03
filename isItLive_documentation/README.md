@@ -36,4 +36,7 @@ Inside this project I use
 ### .2 CI/CD
 > Learning outcome: [CI/CD](/learningOutcomes.md#4-CI-CD)
 
+Continuous Integration and Continuous Delivery is an importend aspect of this project because this scrapper is a component. There for I have created 2 workflows:
+-  Continuous Integration- when a some pushes code on main it will test the code on 3 different node versions.
+-  Continuous Delivery- when a new release has been created the code will be tested on 3 different node versions and if succesfull the code will be published on NPM.
 ![Workflows](../utils/workflows_albertHeijnScrapper.png)
