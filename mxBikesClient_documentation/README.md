@@ -59,6 +59,9 @@ todo
 ## 3. Process Documentation
 
 ### 3.1 Roadmap
+> Learning outcome: [Professional](/learningOutcomes.md#8-Professional), [Agile method](/learningOutcomes.md#3-Agile-method)
+Is is imported to have a roadmap in large projects so you get an understanding where you are and where you want to be. Inside this file you can read about 3 roadmaps to keep track of the project. 
+[View file](./roadmap.md) (🚧 this file is still under construction)
 
 ### 3.2 Metrics
 
