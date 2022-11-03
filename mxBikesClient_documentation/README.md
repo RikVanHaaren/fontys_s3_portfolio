@@ -41,13 +41,13 @@ Inside this file you will find: 'user persona', 'user scenarios' and 'user stori
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
 todo
-[View file](./architectureDesignDocument.md)
+[View file](./architectureDesignDocument.md) 
 
 ### 2.4 Testing Documentation
 > Learning outcome: [Software quality](/learningOutcomes.md#4-Software-quality)
 
-todo
-[View file](./testingDocumentation.md)
+This project is written with the Test driven development in mind. The tests are written in the document below to assure the expected quality.
+[View file](./testingDocumentation.md) (🚧 this file is still under construction)
 
 
 
