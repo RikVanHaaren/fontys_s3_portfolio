@@ -4,13 +4,28 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 - Hans van Heumen, Mark van Grootel
 
 
+# Agile Methodology
+
 ## Table of contents
 - [1. Introduction](#1-introduction)
 
 ##  1. Introduction
-Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
+According to Atlassian: "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly."<sup>[[1]](#1-Colleg)</sup>
 
-## 2. Principles behind the agile manifesto
+## 2. Agile
+According to SixSigma: "The software developers have written the Agile Manifesto as a guideline for all the work they do. Although the manifesto is short, it contains all the important principles of Agile working. The Agile Manifesto was created to prevent Agile ideas from growing into a complex collection. So they always have a handle and guide to help them stay on track." <sup>[[1]](#3-Source)</sup>
+
+### 2.1 Agile manifesto
+The agile manifesto exist of 12 principles and 4 principles that are listed below:
+The 4 agile values are listed below,
+1) **Individuals and interactions** over processes and tools
+2) **Working software** over comprehensive documentation
+3) **Customer collaboration** over contract negotiation
+4) **Responding to change** over following a plan
+
+<br>
+
+The 12 principles are listed below,
 1)	Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 2)	Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 3)	Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
@@ -24,13 +39,6 @@ Agile is an iterative approach to project management and software development th
 11)	The best architectures, requirements, and designs emerge from self-organizing teams.
 12)	At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-## 3. Life Cycle
-The Agile software development life cycle is the structured series of stages that a product goes through as it moves from beginning to end. It contains six phases: concept, inception, iteration, release, maintenance, and retirement.
 
-## 4. Software planning and technical documentation
-Software planning is in many ways synonymous with software documentation, this is because technical documentation is where the software starts taking it shape. It’s where the idea of an application becomes a complex system with its business logic, text specifications and user flows and where we first determine the path to this transformation.     
-Ultimately the documentation help us answer two big question:
-1)	The first question will be: “What should the product be like?”, this part of project management is described in product documentation.
-2)	The second question is: “How are we going to build it?”, this will be covered in the process documentation.
-
-![](../utils/projectDocumentationDiagram.png)
+## 3 Source
+1. Atlassian. (n.d.). What is Agile? Retrieved November 3, 2022, from https://www.atlassian.com/agile
