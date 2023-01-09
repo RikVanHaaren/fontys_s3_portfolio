@@ -66,7 +66,14 @@ For the back-end I knew a common vulnerabilities that is called "SQL injection".
 
 The front-end has an self-signed ssl certificate for establishing an encrypted link between the server and a client.
 
-**performance** To test the performance of my application are two tools used named Postman and Lighthouse.
+**performance** voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse. 
+
+Met Postman voer ik een test uit rechtstreeks naar de Rest-API of een gRPC server zodat ik precies kan zien hoelang het duurde voordat ik een respons heb ontvangen. Dit heb ik in een test gezet zodat ik concluderen dat de response tijd onder 200ms is.
+**TODO: add screenshot**
+
+Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) presteert. Dit performance rapport met de backend en de front-end en zou volgens de volgende Non-functional Requirement: “ The web app Must Have a response time under 2 seconds” gecontroleerd kunnen worden. Uit het rapport blijkt dat de pagina 0.9 seconden nodig heeft volledig interactief te zijn.
+**TODO: add link lighthouse rapport**
+
 
 - (static code analysis / code reviews) SonarCloud 
 
@@ -103,6 +110,14 @@ Group project:
 
 
 ## 2.5 Cultural differences and ethics
+Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd. 
+
+Hiernaar heb ik deze aspecten toegepast in het groepsproject hoe wij als verschillende ontwikkelaars samenwerken.
+
+Tot slot kwam ik de ‘Code of Ethics and Professional Conduct’ waarvan ik 1 guideline heb uitgewerkt.
+
+De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.
+**TODO:Etics bestand toevoegen**
 
 ## 2.6 Requirements and design
 *Individual project*<br/>
