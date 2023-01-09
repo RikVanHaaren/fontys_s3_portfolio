@@ -21,6 +21,7 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 - [6. Reflection]()
 
 #  1. Introduction
+**|DONE|<br>**
 Front-end, Back-end, Microservices, Docker all of these words have one thing in common, it’s used when designing and building a full stack application. With this portfolio I would like to explain how I applied all learning outcomes within my individual and group project. For the individual project I designed and build a web shop for downloading content specifically for the game MX Bikes. Within the group project we designed and build a live score metric for World of Content. With these products and this portfolio I show that I have sufficient knowledge and competences to begin with my internship within the next semester. Since the learning outcomes are the foundation for this portfolio, they will directly be discussed in the next chapter. In the following chapters, chapter three and four, the individual and group projects will be explained. Finally, within the last chapter the reflection is provided.
 
 
@@ -31,6 +32,7 @@ This chapter provides insight within the [learning outcomes](/learningOutcomes.m
 This learning outcome is about whether the design and build is **user-friendly** and a **full-stack** web application.
 
 ### 2.1.1 User-friendly <br/>
+**|DONE|<br>**
 *Individual project*<br/>
 To ensure the user friendliness there a several measurements taken. First, I created a user persona based on interviews with two people that actually play the game. Based on that persona I created User Scenario's, these describe several scenarios and actions applicable to the persona. These User Scenario's are used to create user stories, which are used as a base for the design of the full stack application. Finally, there was a informal check with the interviewees. All these steps are extensively defined within [this file](./mxBikesClient_documentation/uxDocumentation.md).   
 
@@ -81,6 +83,7 @@ Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) pre
 Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
 
 ## 2.3 Agile method
+**|NeedsCheck|<br>**
 *Individual project*<br/>
 During this semester we worked based on a agile methodology. Because there are lot of methodology I was required to do some research which one was suited best for my project. You can read more about the research inside [this file](./research/agile.md).
 
@@ -94,9 +97,11 @@ We held a weekly group discussion where we shared our current process with Hans 
 For our group project we opted for the 'scrum' agile methodology. We held a stand up every day where we met to see how the designated task assigned to him was going. This allows us to help each other well and discuss any feedback. We have a nexus in 'Github' where we could keep track of our genomes and thus see the process that other another is engaged in.
 
 ## 2.4 CI/CD
+**|NeedsCheck|<br>**
 Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). Om dit op te stellen heb ik gebruik gemaakt van Github actions. Hierop is een trigger ingesteld die een integratie uitvoert of een deployment naar een andere omgeving. Hieronder staan de verschillende toepassingen opgesplitst in individueel en groeps project. Ook kun je naar de toepassing gaan door op de link te klikken. 
 
-
+**TODO:Check docker**
+**TODO:Add Screenshot**
 Individual:
 - CI (Continuous Integration)
     - A push and pull request to the main branch will trigger a build that compiles the code into an executable and than it will test the code on go version '1.19'. [service comment action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
@@ -149,6 +154,7 @@ I was responsible for the development of the albertHeijn scrapper. After the inv
 
 
 ## 2.8 Professional
+**|NeedsCheck|<br>**
 *Individual project*<br/>
 During the individual conversation I was also involved with other students. In addition to the weekly group discussions that have been held. I helped Thisoban develop its back-end and took a look at any errors that came up. With Dirk looked at testing his application and troubleshooting in the back-end. I also occasionally asked Bram and Sander about their project where we discussed how some functionalities had been developed.
 
@@ -156,12 +162,17 @@ On feedpulse I wrote down the weekly report by answering 3 important questions: 
 
 The moment I noticed that I had a lack of knowledge, I supplemented this independently by doing research and possibly cursese. I shared this knowledge in the group conversations and also next to it with my classmates. However, this was also a pitfall because I did a lot of research during my semester and didn't make good choices in implementing the research (you can read more about this in the reflection).
 
+Een scenario die zich heeft afgespeeld was een discussie tussen Hans Heumen en mij over een mono repo of multi repo. Deze discussie vond plaats in een bespreken waar de andere klasgenoten ook bij zaten. Ik merkten dat mijn aargument waarom ik voor een multi repo koos niet vielen. Ook hadden de andere studenten hier te weinig informatie over waardoor wij met zijn tweeën aan het discussiëren waren.  Hierdoor kreeg de discussie een minder prettige wending waardoor het niet helemaal duidelijk was voor mij. Ik heb als volgt het initiatief genomen om een individueel gesprek in te plannen waar we onze punten goed konden bespreken. Omdat we nu veel meer de tijd hadden en betere konden vertellen wat onze argumenten waren had dit gesprek een fijnere en betere wending.
+
+
 *Group project*<br/>
 Ik heb de architectuur van de applicatie bedacht en hier een voorbeeld over gemaakt. Dit voorbeeld heb ik besproken met de groep en er feedback over gevraagd. Ook heb ik flowcharts gemaakt zodat je visueel makkelijker kan zien wat welk onderdeel doet. Hierdoor betrok ik de groep bij alle processen en legde ik dit op een gemakkelijke manier uit.
 
 Later merkten ik dat we tegen een probleem aan liepen en dat was dat alle elementen bij elkaar moesten komen. Omdat iedereen zijn eigen taken op zich heeft genomen waren er een aantal miscomunicaties over bepaalde vereisten functionaliteiten. Ik heb ervoor gezorgd dat deze issues in kaart waren gebracht en goed opgeschreven werden. Als volgt heb ik deze taken verdeeld zodat we verder konden met het koppelen van de verschillende componeten.
 
 Ik heb  tijdens dit semseter met iedereen mee gekeken en geholpen waar nodig was. Het geeft me een goede inbren over de kennis waar iemand zich bevind en hierdoor kan ik eventuelen val keulen aankaarten.
+
+Naast de mondeling feedback die ik de groepsgenoten had gegeven nam ik ook de tijd om de peer reviews aan het eind van de sprint in te vullen. Hier gaf ik in het kort positieve evenals negatief feedback. Toch merkten ik dat ik dit wat lastig vond om dat je dit mondelings vaak fijner kan bespreken in plaats van de je de kritiek ook naar de docent deelt.
 
 <hr/>
 
@@ -198,6 +209,7 @@ For the group project we got an asignment from [World of Content](https://worldo
 
 
 # 5. Reflection
+**|NeedsCheck|<br>**
 In order to be able to correctly reflect to this project, I asked three questions to myself based on the reflection model of Gibbs:
 - Evaluation: What went well and what went wrong?
 - Analyses: What did I learn? 
@@ -209,3 +221,5 @@ To begin, I struggled with the planning for this project. I put a lot of effort 
 My next point of reflection is about the feedback conversations that I missed a few at the end. When I missed a feedback meeting in the beginning, I scheduled an individual meeting the next day. Later at the end of the semester I unfortunately also had to cancel a number of times and because I changed too much with my application I was unable to show any new developments. I felt like I had to get out of this myself and work harder towards something that did work for the project. As a result, Hans had less insight into what I was running into and he was therefore unable to help. Next time I will have to take this more into account. It is important for myself but also for a teacher or employer to know what you have tried to help with this. This is why I will schedule a conversation regardless of whether there is progress.
 
 My next point of reflection is about the extensive surveys I have conducted. Because I wanted to deliver a project that I really wanted to put live, I thought it was important to find the best options here. As a result, I pay less attention to the learning objectives and the assignment. As a result, I looked at a huge amount of resources about microservices and how best to use them. Also, I've watched many conferences where they talk about general issues about this architecture. The information was offered weekly in the group discussions where I enthusiastically talked about the information that I put a lot of time into to know the ins and outs that I thought would fit perfectly in my project. However, this cost me so much time that progress could only be found in this. Also because I often started over, researching was often not worth the time spent. Nevertheless, I ultimately benefited a lot from this information and also included a lot in my project, but not everything. I should have focused more on the assignment itself and not on releasing the project. If I had done this there would automatically be less pressure to find the best way to develop it and I could make choices sooner.
+
+In the end, I think I have delivered a good project in which the learning outcomes clearly emerge. My main goal was that I could manage the file (mods) on my computer with the website, and I succeeded. The quality of the application is still high. And so in the future I would reuse the setup I used at the beginning of the project in future projects because it clearly covered all the necessary points. but of course if I also apply the above points.
