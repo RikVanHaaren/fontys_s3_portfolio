@@ -173,25 +173,22 @@ I was responsible for the development of the albertHeijn scrapper. After the inv
 ![Process-MxBikesClient_Login](./utils/topView_albertHeijnScrapper.png)
 
 ## 2.8 Professional
+_Individual project_
+To show my professionality during the process I described several situations below. To start, during the individual project we held weekly group discussion meetings with other students, where we were able to help each other. In example, I helped Thisoban to develop his back-end and looked at any errors that came up. I helped Dirk with testing his application and troubleshooting in the back-end. Finally, I also discussed the developments of several functionalities with Bram and Sander, to learn from each other.
 
-**|NeedsCheck|<br>**
-_Individual project_<br/>
-During the individual conversation I was also involved with other students. In addition to the weekly group discussions that have been held. I helped Thisoban develop its back-end and took a look at any errors that came up. With Dirk looked at testing his application and troubleshooting in the back-end. I also occasionally asked Bram and Sander about their project where we discussed how some functionalities had been developed.
+Secondly, I wrote down a weekly report on FeedPulse by answering 3 important questions: "What did I do?", "What to work on next?" and "Where do I stand?".  In this way I was able to reflect on myself and on the same time I shared my progress with others. In these feedback conversations you can also briefly read which choices I made when and why.
 
-On feedpulse I wrote down the weekly report by answering 3 important questions: "What did I do?", "What to work on next?" and "Where do I stand?". This was very useful because it became so understandable to others and insightful to myself. In these feedback conversations you can briefly read which choice I made when and why.
+Another point, is the moment when I realized I had a lack of knowledge. I solved this independently by doing research and applying this in a project example. The knowledge that I gained, I shared in the group conversations in order to help classmates and possibly get other insights on the subject too.
 
-The moment I noticed that I had a lack of knowledge, I supplemented this independently by doing research and possibly cursese. I shared this knowledge in the group conversations and also next to it with my classmates. However, this was also a pitfall because I did a lot of research during my semester and didn't make good choices in implementing the research (you can read more about this in the reflection).
+Finally, a situation took place with my teacher, where there was a discussion about a mono repo and a multi repo in a group setting with other students. Since the discussion was only between the two of us and we didn't seem to find each other in our arguments, we ended the conversation. However, there were still some things unclear, so I decided to schedule an individual meeting where we were able to discuss further in a more appropriate setting. This ended up a good conversation with understanding, where there was enough room for both of our arguments. 
 
-Een scenario die zich heeft afgespeeld was een discussie tussen Hans Heumen en mij over een mono repo of multi repo. Deze discussie vond plaats in een bespreken waar de andere klasgenoten ook bij zaten. Ik merkten dat mijn aargument waarom ik voor een multi repo koos niet vielen. Ook hadden de andere studenten hier te weinig informatie over waardoor wij met zijn tweeën aan het discussiëren waren. Hierdoor kreeg de discussie een minder prettige wending waardoor het niet helemaal duidelijk was voor mij. Ik heb als volgt het initiatief genomen om een individueel gesprek in te plannen waar we onze punten goed konden bespreken. Omdat we nu veel meer de tijd hadden en betere konden vertellen wat onze argumenten waren had dit gesprek een fijnere en betere wending.
 
-_Group project_<br/>
-Ik heb de architectuur van de applicatie bedacht en hier een voorbeeld over gemaakt. Dit voorbeeld heb ik besproken met de groep en er feedback over gevraagd. Ook heb ik flowcharts gemaakt zodat je visueel makkelijker kan zien wat welk onderdeel doet. Hierdoor betrok ik de groep bij alle processen en legde ik dit op een gemakkelijke manier uit.
+_Group project_
+Within the group project there were also several situations where I improved and showed my professionality. To begin, I came up with the idea for an architecture of the application and made an example of it. I also made flowcharts, so that everyone can easily see what everything does in a visual way. Both of these, we discussed with the group for feedback and together we processed this. I also checked with everyone to make sure they understood what I meant. All the non-verbal feedback which was given and received, I processed in the peer reviews at the end of the sprints. 
+ 
+Secondly, there was miscommunication about several mandatory functionalities. Everyone only focused on their own to do's and in the end the functionalities didn't fit well together. To solve this, I started with an inventory of all of these issues and recorded them in a clear way. After that, I translated these issues into tasks and divided them between the group members, so that we were able to move on with linking all of the functionalities together.
 
-Later merkten ik dat we tegen een probleem aan liepen en dat was dat alle elementen bij elkaar moesten komen. Omdat iedereen zijn eigen taken op zich heeft genomen waren er een aantal miscomunicaties over bepaalde vereisten functionaliteiten. Ik heb ervoor gezorgd dat deze issues in kaart waren gebracht en goed opgeschreven werden. Als volgt heb ik deze taken verdeeld zodat we verder konden met het koppelen van de verschillende componeten.
-
-Ik heb tijdens dit semseter met iedereen mee gekeken en geholpen waar nodig was. Het geeft me een goede inbren over de kennis waar iemand zich bevind en hierdoor kan ik eventuelen val keulen aankaarten.
-
-Naast de mondeling feedback die ik de groepsgenoten had gegeven nam ik ook de tijd om de peer reviews aan het eind van de sprint in te vullen. Hier gaf ik in het kort positieve evenals negatief feedback. Toch merkten ik dat ik dit wat lastig vond om dat je dit mondelings vaak fijner kan bespreken in plaats van de je de kritiek ook naar de docent deelt.
+Finally, I spent a lot of time by helping all the group members when they needed it. This gave me also more knowledge about several topics but also on the progress of the project. Which was very helpful for the team.
 
 <hr/>
 
