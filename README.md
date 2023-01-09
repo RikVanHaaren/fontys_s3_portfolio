@@ -54,6 +54,7 @@ Also, the group project is designed and build based on a full stack application.
 <hr/>
 
 ## 2.2 Software quality
+**|NeedsCheck|<br>**
 Voor de kwaliteit van mijn applicatie heb ik ervoor gezorgd dat ik kan verzekeren dat de applicatie op de 4 punten: “tests”, “security”, “performance” and “Static code analysis / code reviews” verantwoord is. Hieronder kun je lezen hoe ik er voor zorg deze punten dat dit ook het geval is
 
 **Tests**: Ik voer binnen de applicatie verschillende testen uit om de kwaliteit van applicatie te kunnen garanderen en gemakkelijker foutmeldingen kan opsporen. Ik heb hieronder een aantal snippets van verschillende soorten testen staan zodat ik kan laten zien welke ik gebruik.
@@ -98,8 +99,6 @@ Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) pre
 **Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. 
 
 ## 2.3 Agile method
-
-**|NeedsCheck|<br>**
 _Individual project_
 During this semester we worked based on an Agile method in both, the group- and the individual project. Since there are several methods to work with Agile, I did some research to find out which method fits best for the project. You can read more about this analysis inside [this file](./research/agile.md).
 
