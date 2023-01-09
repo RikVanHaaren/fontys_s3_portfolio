@@ -113,29 +113,27 @@ For our group project we opted for the 'Scrum' Agile method. We held a stand-up 
 What also contributed to the continual improvement was that we frequently visited the customer to make sure we were working on the right needs. In order to be flexible in responding to these changes we worked with sprints, including evolutionary development and early delivery.
 
 ## 2.4 CI/CD
-
-**|NeedsCheck|<br>**
-Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). Om dit op te stellen heb ik gebruik gemaakt van Github actions. Hierop is een trigger ingesteld die een integratie uitvoert of een deployment naar een andere omgeving. Hieronder staan de verschillende toepassingen opgesplitst in individueel en groeps project. Ook kun je naar de toepassing gaan door op de link te klikken.
+Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). To enable this, I used Github actions. With a trigger, which is linked to Github actions, an integration is conducted or a deployment to a new environment is performed. Below you can find the 'applications' for the individual and group project. By clicking on the link, you get more information about the application.
 
 **TODO:Check docker**
 **TODO:Add Screenshot**
-Individual:
 
--   CI (Continuous Integration)
-    -   A push and pull request to the main branch will trigger a build that compiles the code into an executable and than it will test the code on go version '1.19'. [service comment action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
--   CD (Continuous Delivery)
-    -   A new release will trigger the tests and than publish the release on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
-    -   The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
+_Individual_
+- CI (Continuous Integration)
+    - A push and pull request to the main branche will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [service comment action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
 
-Group project:
+- CD (Continuous Delivery)
+    - A new release will trigger the tests and then publishes the release on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
+    - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
 
--   CI (Continuous Integration)
-    -   A push and pull request to the main branch will trigger the tests that test the application in node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
--   CD (Continuous Delivery)
-    -   A new release will trigger the tests and than publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
+_Group project_
+- CI (Continuous Integration)
+    - A push and pull request to the main branche will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
+
+- CD (Continuous Delivery)
+    - A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
 
 ## 2.5 Cultural differences and ethics
-
 Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
 
 Hiernaar heb ik deze aspecten toegepast in het groepsproject hoe wij als verschillende ontwikkelaars samenwerken.
