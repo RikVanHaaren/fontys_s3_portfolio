@@ -94,20 +94,21 @@ We held a weekly group discussion where we shared our current process with Hans 
 For our group project we opted for the 'scrum' agile methodology. We held a stand up every day where we met to see how the designated task assigned to him was going. This allows us to help each other well and discuss any feedback. We have a nexus in 'Github' where we could keep track of our genomes and thus see the process that other another is engaged in.
 
 ## 2.4 CI/CD
-Continuous Integration and Continuous Delivery is used in both of the projects (individual and group).
+Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). Om dit op te stellen heb ik gebruik gemaakt van Github actions. Hierop is een trigger ingesteld die een integratie uitvoert of een deployment naar een andere omgeving. Hieronder staan de verschillende toepassingen opgesplitst in individueel en groeps project. Ook kun je naar de toepassing gaan door op de link te klikken. 
+
 
 Individual:
 - CI (Continuous Integration)
-    - A push and pull request to the main branch will trigger a build that compiles the code into an executable and than it will test the code on go version '1.19'.
+    - A push and pull request to the main branch will trigger a build that compiles the code into an executable and than it will test the code on go version '1.19'. [service comment action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
  - CD (Continuous Delivery)
-    - A new release will trigger the tests and than publish the release on "hub.docker".
-    - The go project will regularly add or update the project to pkg.go.dev.
+    - A new release will trigger the tests and than publish the release on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
+    - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
     
 Group project: 
  - CI (Continuous Integration)
-    - A push and pull request to the main branch will trigger the tests that test the application in node version: '14.x', '16.x', '18.x'.
+    - A push and pull request to the main branch will trigger the tests that test the application in node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
  - CD (Continuous Delivery)
-    - A new release will trigger the tests and than publish the release on NPM.
+    - A new release will trigger the tests and than publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api). 
 
 
 ## 2.5 Cultural differences and ethics
