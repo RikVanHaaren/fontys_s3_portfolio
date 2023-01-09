@@ -78,8 +78,6 @@ Voor de kwaliteit van mijn applicatie heb ik ervoor gezorgd dat ik kan verzekere
 ![regression_test_result](./utils/tests/regression_test_result-snippet.jpg)
 
 
-
-
 **Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
 
 **TODO:ADD test screenshot of SQL injection**
