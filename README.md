@@ -54,26 +54,40 @@ Also, the group project is designed and build based on a full stack application.
 <hr/>
 
 ## 2.2 Software quality
+Voor de kwaliteit van mijn applicatie heb ik ervoor gezorgd dat ik kan verzekeren dat de applicatie op de 4 punten: “tests”, “security”, “performance” and “Static code analysis / code reviews” verantwoord is. Hieronder kun je lezen hoe ik er voor zorg deze punten dat dit ook het geval is
 
-_Individual project_<br/>
+**Tests**: Ik voer binnen de applicatie verschillende testen uit om de kwaliteit van applicatie te kunnen garanderen en gemakkelijker foutmeldingen kan opsporen. Ik heb hieronder een aantal snippets van verschillende soorten testen staan zodat ik kan laten zien welke ik gebruik.
 
--   unit test,
+- Unit Test, hieronder kun je een voorbeeld zien van een unit test die de functionaliteit test van de handler “GetCommentByModID”. In deze test valideer ik dat in het verzoek wat er gestuurd wordt de input een valide uuid moet hebben die overeenkomt met het formaat. De uitslag van deze test moet een foutmelding geven dat de uuid fout is.
 
--   Integration Testing
+*Snippet of Test* <br>
+![regression_test](./utils/tests/unit_test-snippet.jpg)
 
--   Regression Testing
+- Integration test, hieronder bevindt zich een een voorbeeld van een integratietest. Met deze test verifieer ik dat als er een correct verzoek naar de handler “GetCommentByID” wordt gestuurd het verwachte resultaat terug komt. De test controleert of de 2 units (handler, repository) correct samenwerken. Het verwachte resultaat van deze functie is dat de gevraagde modID opgehaald wordt uit de database zonder foutmelding.
 
--   system tests
+*Snippet of Test* <br>
+![regression_test](./utils/tests/integration_test-snippet.jpg)
 
-**security** My full stack application is test on common vulnerabilities by a tool call "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connections strings or password in my code.
+- regression, met deze testen kan ik valideren dat de functionaliteiten van een de software functioneel blijven na het toevoegen van nieuwe code. Dit doe ik door in Github alle unit en integratie uit te voeren op het moment als er een wijziging plaatsvindt. Ook voer ik nieuwe testen uit in Postman waar ik de snelheid test maak ook de gehele service die een collectie heeft. Hieronder bevindt zich een snippet waar ik de ‘User’ collectie test. Het test op de snelheid maar ook of een foute of goede input de verwachten resultaat geeft.
+
+*Snippet of Test* <br>
+![regression_test](./utils/tests/regression_test-snippet.jpg)
+
+*Result* <br>
+![regression_test_result](./utils/tests/regression_test_result-snippet.jpg)
+
+
+
+
+**Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
 
 **TODO:ADD test screenshot of SQL injection**
 **TODO:ADD self signed ssl**
-For the back-end I knew a common vulnerabilities that is called "SQL injection". I solved this by using a package name "GORM" this resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with postman to assure that it works correctly.
+For the back-end I knew a common vulnerability that is called "SQL injection". I solved this by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
 
-The front-end has an self-signed ssl certificate for establishing an encrypted link between the server and a client.
+The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client.
 
-**performance** voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse.
+**Performance**:  voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse. 
 
 Met Postman voer ik een test uit rechtstreeks naar de Rest-API of een gRPC server zodat ik precies kan zien hoelang het duurde voordat ik een respons heb ontvangen. Dit heb ik in een test gezet zodat ik concluderen dat de response tijd onder 200ms is.
 **TODO: add screenshot**
@@ -81,9 +95,7 @@ Met Postman voer ik een test uit rechtstreeks naar de Rest-API of een gRPC serve
 Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) presteert. Dit performance rapport met de backend en de front-end en zou volgens de volgende Non-functional Requirement: “ The web app Must Have a response time under 2 seconds” gecontroleerd kunnen worden. Uit het rapport blijkt dat de pagina 0.9 seconden nodig heeft volledig interactief te zijn.
 **TODO: add link lighthouse rapport**
 
--   (static code analysis / code reviews) SonarCloud
-
-Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
+**Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. 
 
 ## 2.3 Agile method
 
