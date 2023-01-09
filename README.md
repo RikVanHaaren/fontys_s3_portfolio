@@ -84,10 +84,11 @@ Carry out, monitor and report on unit integration, regression and system tests, 
 *Individual project*<br/>
 During this semester we worked based on a agile methodology. Because there are lot of methodology I was required to do some research which one was suited best for my project. You can read more about the research inside [this file](./research/agile.md).
 
-For this project I chose 'Kanban' because this methodology is easy to apply with a version control tool called GitHub. This allowed me to link commits to a particular issue that had clearly visible values on a kanban schedule.
+For this project I chose 'Kanban' because this methodology is easy to apply with a version control tool called GitHub. This allowed me to link commits to a particular issue that had clearly visible values on a kanban schedule. Below you can see the the planning of a sprint.
 
-We held a weekly group discussion where we shared our current process with Hans and the fellow students. Here came feedback, some of which ends up in the issues.
-**TODO:ADD project planning**
+![project planning snippet](./utils/projectPlanning_snippet.png)
+
+We held a weekly group discussion where we shared our current process with Hans van Heumen and the fellow students. Some of the given feedback where converted in issue that changed in de project board.
 
 *Group project*<br/>
 For our group project we opted for the 'scrum' agile methodology. We held a stand up every day where we met to see how the designated task assigned to him was going. This allows us to help each other well and discuss any feedback. We have a nexus in 'Github' where we could keep track of our genomes and thus see the process that other another is engaged in.
