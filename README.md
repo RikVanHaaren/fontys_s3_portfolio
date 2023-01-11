@@ -97,6 +97,7 @@ Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) pre
 **Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. 
 
 ## 2.3 Agile method
+**|DONE|<br>**
 _Individual project_
 During this semester we worked based on an Agile method in both, the group- and the individual project. Since there are several methods to work with Agile, I did some research to find out which method fits best for the project. You can read more about this analysis inside [this file](./research/agile.md).
 
@@ -113,6 +114,7 @@ For our group project we opted for the 'Scrum' Agile method. We held a stand-up 
 What also contributed to the continual improvement was that we frequently visited the customer to make sure we were working on the right needs. In order to be flexible in responding to these changes we worked with sprints, including evolutionary development and early delivery.
 
 ## 2.4 CI/CD
+**|DONE|<br>**
 Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). To enable this, I used Github actions. With a trigger, which is linked to Github actions, an integration is conducted or a deployment to a new environment is performed. Below you can find the 'applications' for the individual and group project. By clicking on the link, you get more information about the application.
 
 **TODO:Check docker**
@@ -142,7 +144,7 @@ De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.
 **TODO:Etics bestand toevoegen**
 
 ## 2.6 Requirements and design
-
+**|NeedsCheck|<br>**
 _Individual project_<br/>
 Ik heb de non-functional requirements vertaald naar een microservice architectuur waar de logica goed verdeeld is in verschillende services en dit overlegd met de stakeholder/ Hans Heumen. Op basis van de acceptatie testen **TODO: add acceptatie testen** kan ik garanderen dat de applicatie naar behoren werkt. Ook heb ik rekening gehouden met qualiteit van de eigenschappen doordat ik “Software quality” heb uitgezocht en toegepast met verschillende testen.
 
@@ -157,7 +159,7 @@ Hierboven bevindt zich de learning outcome 'Software quality'. Hier je meer leze
 _Group project_<br/>
 
 ## 2.7 Business processes
-
+**|DONE|<br>**
 _Individual project_<br/>
 I have a Business Process Modeling Notation (BPMN) about a login process in the application with the tool Studio Creatio. This process clearly displays the options of what happens if a user cannot log in and what platforms the user uses. Below you can see the result of the process.
 
@@ -169,6 +171,7 @@ I was responsible for the development of the albertHeijn scrapper. After the inv
 ![Process-MxBikesClient_Login](./utils/topView_albertHeijnScrapper.png)
 
 ## 2.8 Professional
+**|DONE|<br>**
 _Individual project_
 To show my professionality during the process I described several situations below. To start, during the individual project we held weekly group discussion meetings with other students, where we were able to help each other. In example, I helped Thisoban to develop his back-end and looked at any errors that came up. I helped Dirk with testing his application and troubleshooting in the back-end. Finally, I also discussed the developments of several functionalities with Bram and Sander, to learn from each other.
 
@@ -224,7 +227,7 @@ For the group project we got an asignment from [World of Content](https://worldo
 -
 
 # 5. Reflection
-
+**|DONE|<br>**
 To be able to correctly reflect to this project, I asked three questions to myself based on the reflection model of Gibbs:
 
 -   Evaluation: What went well and what went wrong?
