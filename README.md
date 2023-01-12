@@ -62,20 +62,95 @@ Voor de kwaliteit van mijn applicatie heb ik ervoor gezorgd dat ik kan verzekere
 - Unit Test, hieronder kun je een voorbeeld zien van een unit test die de functionaliteit test van de handler “GetCommentByModID”. In deze test valideer ik dat in het verzoek wat er gestuurd wordt de input een valide uuid moet hebben die overeenkomt met het formaat. De uitslag van deze test moet een foutmelding geven dat de uuid fout is.
 
 *Snippet of Test* <br>
-![regression_test](./utils/tests/unit_test-snippet.jpg)
+```golang
+func TestIsValidNotExpired(t *testing.T) {
+	// Arrange
+	var expiresAt = time.Now().Local().Add(time.Hour * time.Duration(2))
+
+	// Act
+	isValid := IsValid(models.AuthResponse{ExpiresAt: expiresAt})
+
+	// Assert
+	assert.Equal(t, isValid, true)
+}
+
+func TestIsValidExpired(t *testing.T) {
+	// Arrange
+	var expiresAt = time.Date(2021, 8, 15, 14, 30, 45, 100, time.Local)
+
+	// Act
+	isValid := IsValid(models.AuthResponse{ExpiresAt: expiresAt})
+
+	// Assert
+	assert.Equal(t, isValid, false)
+}
+```
 
 - Integration test, hieronder bevindt zich een een voorbeeld van een integratietest. Met deze test verifieer ik dat als er een correct verzoek naar de handler “GetCommentByID” wordt gestuurd het verwachte resultaat terug komt. De test controleert of de 2 units (handler, repository) correct samenwerken. Het verwachte resultaat van deze functie is dat de gevraagde modID opgehaald wordt uit de database zonder foutmelding.
 
 *Snippet of Test* <br>
-![regression_test](./utils/tests/integration_test-snippet.jpg)
+```golang
+// will test update comment
+func TestGetCommentByModID(t *testing.T) {
+	// Arrange
+	var modID = uuid.New()
+
+	db, mock := NewMock()
+	mock.ExpectQuery(regexp.QuoteMeta(`SELECT * FROM "comments" WHERE mod_id = $1 AND "comments"."deleted_at" IS NULL`)).
+		WithArgs(modID).
+		WillReturnRows(sqlmock.
+			NewRows([]string{"ID", "ModID", "UserID", "Text"}).
+			AddRow(uuid.New().String(), modID.String(), uuid.New().String(), "Good Job!"))
+
+	gdb, err := gorm.Open(postgres.New(postgres.Config{Conn: db}), &gorm.Config{})
+	if err != nil {
+		log.Fatalf(log_failedConn, err)
+	}
+
+	repo := repository.NewRepository(gdb)
+	handler := New(repo, *logrus.New())
+
+	// Act
+	result, err := handler.GetCommentByModID(context.Background(), &protobuffer.GetCommentByModIDRequest{ModID: modID.String()})
+
+	// Assert
+	assert.NoError(t, err)
+	assert.Equal(t, result.Comments[0].ModID, modID.String())
+}
+```
 
 - regression, met deze testen kan ik valideren dat de functionaliteiten van een de software functioneel blijven na het toevoegen van nieuwe code. Dit doe ik door in Github alle unit en integratie uit te voeren op het moment als er een wijziging plaatsvindt. Ook voer ik nieuwe testen uit in Postman waar ik de snelheid test maak ook de gehele service die een collectie heeft. Hieronder bevindt zich een snippet waar ik de ‘User’ collectie test. Het test op de snelheid maar ook of een foute of goede input de verwachten resultaat geeft.
 
 *Snippet of Test* <br>
-![regression_test](./utils/tests/regression_test-snippet.jpg)
+```javascript
+const correctUserID = "auth0|63b2dff9e834e550f0e50e66"
+const unkownUserID = "auth0|123456789123456789123456"
+const userEndpoint = `${pm.variables.get("baseUrl")}${pm.variables.get("port")}/v1/users`;
 
-*Result* <br>
-![regression_test_result](./utils/tests/regression_test_result-snippet.jpg)
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+pm.test("Assure that correct UserID get users", function () {
+    pm.sendRequest(`${userEndpoint}/${correctUserID}`, function (err, response) {
+        var jsonData = response.json();
+        pm.expect(200).to.eql(response.code);
+        pm.expect(jsonData.User.ID).to.eql(pm.globals.get("userID"));
+    });
+});
+
+pm.test("Assure that empty UserID status 500", function () {
+    pm.sendRequest(`${userEndpoint}/`, function (err, response) {
+        pm.expect(500).to.eql(response.code);
+    });
+});
+
+pm.test("Assure that unkown UserID status 500", function () {
+    pm.sendRequest(`${userEndpoint}/${unkownUserID}`, function (err, response) {
+        pm.expect(500).to.eql(response.code);
+    });
+});
+```
 
 
 **Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
@@ -223,8 +298,6 @@ For the group project we got an asignment from [World of Content](https://worldo
 -   Protobuffer
 -   GRPC
 -   Rest
-
--
 
 # 5. Reflection
 **|DONE|<br>**
