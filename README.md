@@ -156,9 +156,13 @@ pm.test("Assure that unkown UserID status 500", function () {
 **Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
 
 For the back-end I knew a common vulnerability that is called "SQL injection". I solved this by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
-![sql injection test](./utils/security/sql_injectionTest.png).
 
-![sql injection example](./utils/security/sql_injectionExample.png).
+*without protection*
+![sql injection example](./utils/security/sql_injectionExample.png)
+
+*with protection*
+![sql injection test](./utils/security/sql_injectionTest.png)
+
 
 The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client.
 ![ssl-certificate](./utils/security/ssl_certificate.png).
@@ -166,7 +170,11 @@ The front-end has a self-signed ssl certificate for establishing an encrypted li
 **Performance**:  voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse. 
 
 Met Postman voer ik een test uit rechtstreeks naar de Rest-API of een gRPC server zodat ik precies kan zien hoelang het duurde voordat ik een respons heb ontvangen. Dit heb ik in een test gezet zodat ik concluderen dat de response tijd onder 200ms is.
-**TODO: add screenshot**
+```javascript
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+```
 
 Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) presteert. Dit performance rapport met de backend en de front-end en zou volgens de volgende Non-functional Requirement: “ The web app Must Have a response time under 2 seconds” gecontroleerd kunnen worden. Uit het rapport blijkt dat de pagina 0.9 seconden nodig heeft volledig interactief te zijn.
 **TODO: add link lighthouse rapport**
