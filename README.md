@@ -155,9 +155,10 @@ pm.test("Assure that unkown UserID status 500", function () {
 
 **Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
 
-**TODO:ADD test screenshot of SQL injection**
-**TODO:ADD self signed ssl**
 For the back-end I knew a common vulnerability that is called "SQL injection". I solved this by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
+![sql injection test](./utils/security/sql_injectionTest.png).
+
+![sql injection example](./utils/security/sql_injectionExample.png).
 
 The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client.
 ![ssl-certificate](./utils/security/ssl_certificate.png).
