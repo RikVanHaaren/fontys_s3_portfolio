@@ -188,7 +188,7 @@ Ik heb deze score verbeterd door de afbeeldingen te kompressen naar een lagere k
 ![lighthouse_report-homepageTotal](./utils/lighthouse_rapport/lighthouse_report-homepageTotal_fixed.png)
 [Lighthouse Report after fixes](./utils/lighthouse_rapport/lighthouse_report-homepage_fixed.pdf)
 
-**Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. 
+**Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. Ook heb ik dit toegevoed als continuous integration zodat in Github zichtbaar is of de code voldoet aan de eisen.
 
 ## 2.3 Agile method
 **|DONE|<br>**
