@@ -178,7 +178,14 @@ pm.test("Response time is less than 200ms", function () {
 
 Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) presteert. Dit performance rapport met de backend en de front-end en zou volgens de volgende Non-functional Requirement: “ The web app Must Have a response time under 2 seconds” gecontroleerd kunnen worden. Uit het rapport blijkt dat de pagina 0.9 seconden nodig heeft volledig interactief te zijn.
 
+Toen ik verder naar het rapport bekijk viel me op dat de performance oranje was met een score van 77. Ik ben specifiek verder op dit onderwerp opzoek gegaan het rapport om te bekijken wat het probleem was.
+
+![lighthouse_report-homepageTotal](./utils/lighthouse_rapport/lighthouse_report-homepageTotal.png)
 [Lighthouse Report original](./utils/lighthouse_rapport/lighthouse_report-homepage.pdf)
+
+Ik heb deze score verbeterd door de afbeeldingen te kompressen naar een lagere kwaliteit. Hierdoor is het nog lichter om de content van de pagina op te halen. Ook moest ik de test in incognito uitvoeren omdat de extensies die op mijn chrome profiel actief waren voor een blocking time zorgden. Met deze verbeteringen is het resultaat flink verbeterd!
+
+![lighthouse_report-homepageTotal](./utils/lighthouse_rapport/lighthouse_report-homepageTotal_fixed.png)
 [Lighthouse Report after fixes](./utils/lighthouse_rapport/lighthouse_report-homepage_fixed.pdf)
 
 **Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. 
