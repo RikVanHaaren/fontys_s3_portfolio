@@ -241,9 +241,20 @@ I have a Business Process Modeling Notation (BPMN) about a login process in the 
 ![Process-MxBikesClient_Login](./utils/Process-MxBikesClient_Login.png)
 
 _Group project_<br/>
-I was responsible for the development of the albertHeijn scrapper. After the investigations I had done I found out a process that had to be followed to pick up a product. I mapped this process using flowcharts. I did this by first designing the global outcome and I zoomed in on each process as follows. The outcome of this were 3 flowcharts that I used a lot with customer communication and also towards the students. Below is the zoomed out flowchart of the process. You can see the sub processes with the following [link](./isItLive_documentation/README.md#21-Software-Component-Design).
+what?
+Hierdoor kwam ik tot de conclusie dat ik gebruik wilde maken van de ‘Business Process Modeling Notation’ (BPMN). Ik heb hiervoor gekozen omdat de primary goal is om business process management for het bedrijf en voor de technische gebruiker ondersteund. Dit visualiseer ik met Flow elements. 
 
-![Process-MxBikesClient_Login](./utils/topView_albertHeijnScrapper.png)
+Voor mijn eerste process had ik een onderdeel uit mijn individuele project gekozen waarbij het process ging over hoe een gebruiker in moet loggen en welke partijen hiervoor nodig waren. Echter bleek na feedback van Marc dit te technisch te zijn. Om dit te voorkomen heb ik een ander process gekozen waar ik dit beter kan voorkomen. Marc gaf eerst als tip om bijvoorbeeld een flow van een restaurant te gebruiken. Dit was alleen erg lastig omdat ik hier nooit gewerkt heb daarom heb ik er voor gekozen om het proces vast te leggen van het inchecken met een NS OV-chipkaart.
+
+
+so what?
+In dit proces kun je duidelijk inzien wat een reiziger moet doen om in  te kunnen checken en dat hij of zij de keuzen heeft om te kunnen kiezen tussen ‘Entrance gate’ of ‘check-in pole’. Ook kun je zien welke handelingen de reiziger moet nemen om tot een conclusie te komen.
+
+now what?
+Dit proces weergeeft specifiek wat een reiziger moet doen om in te checken bij NS. Dit proces kan natuurlijk uitgebreid worden naar de verschillende opties die de reiziger kan zien als er iets fout gaat en wat de reiziger dan moet doen om dit op te lossen. Met de kennis die ik heb opgedaan heb ik de capaciteiten om dit verder uit te bereiden.
+
+
+![Process-MxBikesClient_Login](./utils/businessProcess/NS-CheckIn.png)
 
 ## 2.8 Professional
 **|DONE|<br>**
