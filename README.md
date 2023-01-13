@@ -246,7 +246,6 @@ Hierdoor kwam ik tot de conclusie dat ik gebruik wilde maken van de ‘Business 
 
 Voor mijn eerste process had ik een onderdeel uit mijn individuele project gekozen waarbij het process ging over hoe een gebruiker in moet loggen en welke partijen hiervoor nodig waren. Echter bleek na feedback van Marc dit te technisch te zijn. Om dit te voorkomen heb ik een ander process gekozen waar ik dit beter kan voorkomen. Marc gaf eerst als tip om bijvoorbeeld een flow van een restaurant te gebruiken. Dit was alleen erg lastig omdat ik hier nooit gewerkt heb daarom heb ik er voor gekozen om het proces vast te leggen van het inchecken met een NS OV-chipkaart.
 
-
 so what?
 In dit proces kun je duidelijk inzien wat een reiziger moet doen om in  te kunnen checken en dat hij of zij de keuzen heeft om te kunnen kiezen tussen ‘Entrance gate’ of ‘check-in pole’. Ook kun je zien welke handelingen de reiziger moet nemen om tot een conclusie te komen.
 
