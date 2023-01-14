@@ -3,9 +3,9 @@
 
 ### 1.1 Context
 Below you can see the System Context Diagram of the software.
-![](../utils/systemContexDiagram.png)
+![](../utils/c4_model/systemContexDiagram.png)
 
 ### 1.2 Container
 Below you can see a deeper view on what containers the application contains.
-![](../utils/containerDiagram.png)
+![](../utils/c4_model/containerDiagram.png)
 

@@ -247,9 +247,7 @@ De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.
 _Individual project_<br/>
 Ik heb de non-functional requirements vertaald naar een microservice architectuur waar de logica goed verdeeld is in verschillende services en dit overlegd met de stakeholder/ Hans Heumen. Op basis van de acceptatie testen **TODO: add acceptatie testen** kan ik garanderen dat de applicatie naar behoren werkt. Ook heb ik rekening gehouden met qualiteit van de eigenschappen doordat ik “Software quality” heb uitgezocht en toegepast met verschillende testen.
 
-De architectuur is zichtbaar in het volgende document en de eigenschappen zijn zichtbaar in dit document.
-
-**TODO: add architectuur link** **TODO: add requirements link**
+De architectuur is zichtbaar in het volgende [document](./mxBikesClient_documentation/architectureDesignDocument.md) en de requirements zijn zichtbaar in dit [document](./mxBikesClient_documentation/requirements.md).
 
 Ik heb tijdens dit project mijn non-functional requirements vertaald naar een microservice architectuur.
 
