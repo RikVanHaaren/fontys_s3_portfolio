@@ -165,7 +165,7 @@ For the back-end I knew a common vulnerability that is called "SQL injection". I
 
 
 The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client.
-![ssl-certificate](./utils/security/ssl_certificate.png).
+![ssl-certificate](./utils/security/ssl_certificate.png)
 
 **Performance**:  voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse. 
 
@@ -190,6 +190,8 @@ Ik heb deze score verbeterd door de afbeeldingen te kompressen naar een lagere k
 
 **Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. Ook heb ik dit toegevoed als continuous integration zodat in Github zichtbaar is of de code voldoet aan de eisen.
 
+![sonarcloud](./utils/sonarcloud.png)
+
 ## 2.3 Agile method
 **|DONE|<br>**
 _Individual project_
@@ -208,24 +210,27 @@ For our group project we opted for the 'Scrum' Agile method. We held a stand-up 
 What also contributed to the continual improvement was that we frequently visited the customer to make sure we were working on the right needs. In order to be flexible in responding to these changes we worked with sprints, including evolutionary development and early delivery.
 
 ## 2.4 CI/CD
-**|DONE|<br>**
-Continuous Integration and Continuous Delivery is used in both of the projects (individual and group). To enable this, I used Github actions. With a trigger, which is linked to Github actions, an integration is conducted or a deployment to a new environment is performed. Below you can find the 'applications' for the individual and group project. By clicking on the link, you get more information about the application.
+**|NeedsCheck|<br>**
+what?
+Inside the Github repositories I added Continuous Integration and Continuous Delivery via actions. I used this inside the group project and the individual project. Below you can see the integration I used for the repositories. 
 
-**TODO:Check docker**
-**TODO:Add Screenshot**
+Continuous Integration
+A push and pull request to the main branch will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
+A push and pull request to the main branch will trigger a SonarCloud analyzer that validates the code on ‘Static code analysis / code reviews’ and ‘Security’. [Link to Actionaction](https://github.com/mxbikes/mxbikesclient.service.comment/blob/main/.github/workflows/sonarcloud.yml)
+A push and pull request to the main branche will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
+Continuous Delivery
+A push to the main branch will test and then publish the project on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
+The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
+A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
 
-_Individual_
-- CI (Continuous Integration)
-    - A push and pull request to the main branche will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [service comment action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
-- CD (Continuous Delivery)
-    - A new release will trigger the tests and then publishes the release on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
-    - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
 
-_Group project_
-- CI (Continuous Integration)
-    - A push and pull request to the main branche will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
-- CD (Continuous Delivery)
-    - A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
+
+so what?
+This will assure the quality and security of my repository. Whenever someone makes a mistake and it gets on the repository which ends, I will be notified via email and all the users that visit the repository sees that it failed at the moment. Because it continues it also shortens the time and effort to deliver new features.
+
+now what?
+Now I can assure the quality of my project and test if the project meets certain requirements and it will shorten the time to deploy new features.
+
 
 ## 2.5 Cultural differences and ethics
 Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
