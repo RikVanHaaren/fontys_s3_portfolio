@@ -220,26 +220,18 @@ For our group project we opted for the 'Scrum' Agile method. We held a stand-up 
 What also contributed to the continual improvement was that we frequently visited the customer to make sure we were working on the right needs. In order to be flexible in responding to these changes we worked with sprints, including evolutionary development and early delivery.
 
 ## 2.4 CI/CD
-what?
-Inside the Github repositories I added Continuous Integration and Continuous Delivery via actions. I used this inside the group project and the individual project. Below you can see the integration I used for the repositories. 
-
+Inside the Github repositories I added Continuous Integration and Continuous Delivery via actions. I used this inside the group project and the individual project. Below you can see the integration I used for the repositories.
 Continuous Integration
 - A push and pull request to the main branch will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
 - A push and pull request to the main branch will trigger a SonarCloud analyzer that validates the code on ‘Static code analysis / code reviews’ and ‘Security’. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/blob/main/.github/workflows/sonarcloud.yml)
 - A push and pull request to the main branch will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
 
 Continuous Delivery
-
 - A push to the main branch will test and then publish the project on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
 - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
 - A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
 
-so what?
-This will assure the quality and security of my repository. Whenever someone makes a mistake and it gets on the repository which ends, I will be notified via email and all the users that visit the repository sees that it failed at the moment. Because it continues it also shortens the time and effort to deliver new features.
-
-now what?
-Now I can assure the quality of my project and test if the project meets certain requirements and it will shorten the time to deploy new features.
-
+These integrations assure the quality and security of my repository. Whenever someone makes a mistake and it gets on the repository which ends, I will be notified via email and all the users that visit the repository sees that it failed at the moment. Because it continues it also shortens the time and effort to deliver new features. In this way, I can assure the quality of my project and test if the project meets certain requirements and it will shorten the time to deploy new features.
 
 ## 2.5 Cultural differences and ethics
 ### 2.5.1 Cultural differences
@@ -301,8 +293,6 @@ Within the group project there were also several situations where I improved and
 Secondly, there was miscommunication about several mandatory functionalities. Everyone only focused on their own to do's and in the end the functionalities didn't fit well together. To solve this, I started with an inventory of all of these issues and recorded them in a clear way. After that, I translated these issues into tasks and divided them between the group members, so that we were able to move on with linking all of the functionalities together.
 
 Finally, I spent a lot of time by helping all the group members when they needed it. This gave me also more knowledge about several topics but also on the progress of the project. Which was very helpful for the team.
-
-<hr/>
 
 # 3. Individual Project (MxBikesClient)
 For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I acquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)".   
