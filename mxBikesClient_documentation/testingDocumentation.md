@@ -7,8 +7,20 @@ I just read about this concept and want to add it to the project.
 - [1. Test Cases](#1-Test-Cases)
 
 ## 1. Introduction
+This file contains a test plan that needs to be followed when the application is deployed or when a new feature is added or removed. The test plan contains steps that need to be followed and the Test Cases is a part of this plan. 
 
 ## 2. Test Plan
+The software needs to be tested before a new release. This can be when a new feature is added or removed but also when the application deploys for the first time. 
+
+We test the software in 3 steps:
+Step 1. Test the Back-end based on the Postman collection test, [found here](./utils/MxBikesClient.postman_collection.json).
+Step 2. Test the web application based on the Test cases below.
+Step 3. Walk through the application with the stakeholder or an end user to test each functionality.
+
+With these tests we can assure that the required functionalities of the application work and that the functional and non functional aspects like the quality and security are correct. 
+
+With this plan we can release software faster and assure that it is tested on most important aspects of the application.
+
 
 ## 3. Test Cases
 | Test Case   ID | Test Case Description | Test Steps | Test Data | Expected Results | Actual Results | Pass/Fail |

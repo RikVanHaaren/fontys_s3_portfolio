@@ -1,0 +1,376 @@
+{
+	"info": {
+		"_postman_id": "0cf2ca20-7105-4b72-a472-3c4419927146",
+		"name": "MxBikesClient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1997835"
+	},
+	"item": [
+		{
+			"name": "Mod",
+			"item": [
+				{
+					"name": "GetModByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/mods/21624454-236c-4a72-ac1b-128af0de0eab or 1=1",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"mods",
+								"21624454-236c-4a72-ac1b-128af0de0eab or 1=1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SearchMod",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"SearchText\": \"%%\",\r\n    \"Size\": 10\r\n}\r\n//\"ModTypeCategoryID\": \"f0cd00f6-d0cc-4247-a0a9-2fcce2bb87bf\",\r\n//\"Page\": 1,\r\n//\"ModTypeCategoryIDs\": [\"63964035-51ef-40a1-87e3-fa533bbbebc4\"],\r\n//\"Size\": 10",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/mods",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"mods"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ModImages",
+			"item": [
+				{
+					"name": "GetModImagesByModID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/modImages/0a8e3305-c32e-46bc-816c-0eb4fe27b74d",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"modImages",
+								"0a8e3305-c32e-46bc-816c-0eb4fe27b74d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "CreateComment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ModID\":\"6cde3b99-e551-43ff-aa66-bf263c03e680\", \r\n    \"UserID\":\"auth0|63b42eb7e834e550f0e5320c\", \r\n    \"Text\":\"I am a new comment\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/comments",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateComment",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ID\": \"da5eb1e2-614e-4144-bd50-c6494845403e\",\r\n    \"ModID\":\"6cde3b99-e551-43ff-aa66-bf263c03e680\", \r\n    \"UserID\":\"1d52a8e5-ce5a-43e0-b8bf-330a2fd4c15e\", \r\n    \"Text\":\"old\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/comments",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteComment",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/comments/d51ffad6-f4d2-4668-a136-a03d35208f68",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"comments",
+								"d51ffad6-f4d2-4668-a136-a03d35208f68"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCommentByModID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/comments?ModID=6cde3b99-e551-43ff-aa66-bf263c03e680",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "ModID",
+									"value": "6cde3b99-e551-43ff-aa66-bf263c03e680"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "GetUserByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const correctUserID = \"auth0|63b2dff9e834e550f0e50e66\"\r",
+									"const unkownUserID = \"auth0|123456789123456789123456\"\r",
+									"const userEndpoint = `${pm.variables.get(\"baseUrl\")}${pm.variables.get(\"port\")}/v1/users`;\r",
+									"\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Assure that correct UserID get users\", function () {\r",
+									"    pm.sendRequest(`${userEndpoint}/${correctUserID}`, function (err, response) {\r",
+									"        var jsonData = response.json();\r",
+									"        pm.expect(200).to.eql(response.code);\r",
+									"        pm.expect(jsonData.User.ID).to.eql(pm.globals.get(\"userID\"));\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Assure that empty UserID status 500\", function () {\r",
+									"    pm.sendRequest(`${userEndpoint}/`, function (err, response) {\r",
+									"        pm.expect(500).to.eql(response.code);\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Assure that unkown UserID status 500\", function () {\r",
+									"    pm.sendRequest(`${userEndpoint}/${unkownUserID}`, function (err, response) {\r",
+									"        pm.expect(500).to.eql(response.code);\r",
+									"    });\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/users/auth0|63b2dff9e834e550f0e50e66",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"users",
+								"auth0|63b2dff9e834e550f0e50e66"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Subscription",
+			"item": [
+				{
+					"name": "GetSubscriptionsByUserID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/subscriptions?UserID=auth0|63b2dff9e834e550f0e50e66",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"subscriptions"
+							],
+							"query": [
+								{
+									"key": "UserID",
+									"value": "auth0|63b2dff9e834e550f0e50e66"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddSubscription",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserID\": \"auth0|63b2dff9e834e550f0e50e66\",\r\n    \"ModID\": \"0a8e3305-c32e-46bc-816c-0eb4fe27b74d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/subscriptions",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"subscriptions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RemoveSubscription",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserID\": \"auth0|63b2dff9e834e550f0e50e66\",\r\n    \"ModID\": \"0a8e3305-c32e-46bc-816c-0eb4fe27b74d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}{{port}}/v1/subscriptions/delete",
+							"host": [
+								"{{baseUrl}}{{port}}"
+							],
+							"path": [
+								"v1",
+								"subscriptions",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "localhost",
+			"type": "string"
+		},
+		{
+			"key": "port",
+			"value": ":4105",
+			"type": "string"
+		}
+	]
+}
