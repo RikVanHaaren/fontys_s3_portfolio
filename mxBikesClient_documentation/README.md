@@ -14,12 +14,10 @@ I am going to develop a web store where user of the community “MX bikes” can
   - [2.4 Testing Documentation](#24-Testing-Documentation)
 
 ##  1. Introduction
-This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
-
+This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description. Below you can see the concept presentation that I showed at the begin of this semester.
 ![concept_presentation](./utils/concept_presentation.gif)
 
 ## 2. Project Documentation
-
 ### 2.1 Requirements 
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
