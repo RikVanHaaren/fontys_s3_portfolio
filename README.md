@@ -311,6 +311,19 @@ Eventuele mede ontwikkelaars die zich bij het project voegen kunnen gestructuree
 
 
 _Group project_<br/>
+What
+We hebben voor het groepsproject het aangeleverde probleem met een aanduidings gesprek gehad. Vanuit dit gesprek hebben we requirements opgesteld en deze besproken en verder afgestemd.
+
+Op deze requirements heb ik een architectuur/ structuur voor de applicatie bedacht waarmee we goed en snel de verschillende onderdelen konden ontwikkelen en deze gemakkelijk later samen voegen. Ook zorgt heeft iedere onderdeel van deze structuur maar een taak waardoor het project makkelijk te begrijpen is. Om de leercurve van deze architectuur omlaag te halen heb ik een voorbeeld applicatie gemaakt en hier een demonstratie van geven voor de groep. 
+
+Een taak die ik had ging over het scrapen van de AlbertHeijn producten. Hier liep ik tegen een uitdaging aan omdat er een extra stap bij kwam om dit te realiseren. Ik heb hiervoor extra flowcharts gemaakt zodat de stakeholder kon begrijpen wat het onderdeel in de applicatie precies doet.
+
+So what
+Hierdoor heeft de stakeholder en de medestudenten uit de groep goede feedback kunnen geven zonder dat er diep werd ingagaan op het ontwikkelen ervan. Ik kan hierdoor garanderen dat de opgestelde requirements correct zijn vertaald naar een eind applicatie. Ook kan ik garanderen dat de applicatie voldoet aan de behoefte van de stakeholder.
+
+now what?
+De duidelijke requirements en ontwerpen hebben ervoor gezorgd dat de stakeholder erg tevreden is over het opgeleverde project. Ook hebben we geen tijd verspild aan eventuele features die niet noodzakelijk waren.
+
 
 ## 2.7 Business processes
 In order to demonstrate the learning objective 'Business Processes', I have chosen to map out a process of public transport (OV). More specific, the process for checking in with an NS OV-chipcard, which is necessary to be able to enter the public transportation. In first instance, I had chosen a process from my individual project about how a user was able to login and which parties were needed for this. But I received feedback from Marc that this was to technical and better could choose a simpler process, in example from a restaurant. I choose for the public transport process, since this I am familiar with this process and it's very simple to.

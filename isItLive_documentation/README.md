@@ -20,6 +20,10 @@ This document is used as a guide for the directory. In the chapters below you ca
 One of my task was to create a scrappers that gets the product from AlbertHeijn webshop. Is is importend to document these steps because the team needs to use in the main application.   
 [View project](https://github.com/RikVanHaaren/ah_shop_api)
 
+
+### Architecture
+![Architecture](./utils/IsItLive-TopView.png)
+
 ### 2.1 Software/ Component Design
 > Learning outcome: [Requirements and design](/learningOutcomes.md#6-Requirements-and-design)
 
