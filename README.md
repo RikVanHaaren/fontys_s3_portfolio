@@ -29,21 +29,15 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 -   [6. Reflection]()
 
 # 1. Introduction
-
-**|DONE|<br>**
 Front-end, Back-end, Microservices, Docker all of these words have one thing in common, it’s used when designing and building a full stack application. With this portfolio I would like to explain how I applied all learning outcomes within my individual and group project. For the individual project I designed and build a web shop for downloading content specifically for the game MX Bikes. Within the group project we designed and build a live score metric for World of Content. With these products and this portfolio I show that I have sufficient knowledge and competences to begin with my internship within the next semester. Since the learning outcomes are the foundation for this portfolio, they will directly be discussed in the next chapter. In the following chapters, chapter three and four, the individual and group projects will be explained. Finally, within the last chapter the reflection is provided.
 
 # 2. Learning Outcomes
-
-This chapter provides insight within the [learning outcomes](/learningOutcomes.md#3-Agile-method). Every paragraph shortly indicates what the outcome means and explains how the specific outcome is achieved. Sometimes there is redirection for further information.
+This chapter provides insight in the [learning outcomes](/learningOutcomes.md#3-Agile-method). Every paragraph shortly indicates what the outcome means and explains how the specific outcome is achieved. Sometimes there is redirection for further information.
 
 ## 2.1 Web application
-
 This learning outcome is about whether the design and build is **user-friendly** and a **full-stack** web application.
 
 ### 2.1.1 User-friendly <br/>
-
-**|DONE|<br>**
 _Individual project_<br/>
 To ensure the user friendliness there a several measurements taken. First, I created a user persona based on interviews with two people that actually play the game. Based on that persona I created User Scenario's, these describe several scenarios and actions applicable to the persona. These User Scenario's are used to create user stories, which are used as a base for the design of the full stack application. Finally, there was a informal check with the interviewees. All these steps are extensively defined within [this file](./mxBikesClient_documentation/uxDocumentation.md).
 
@@ -57,15 +51,13 @@ The individual project is designed and build based on a full stack application, 
 _Group project_<br/>
 Also, the group project is designed and build based on a full stack application. Mostly of the previous mentioned explanations are also applicable to the group project. Except that the backend is developed with NodeJS and not with microservices. You can access the frontend with this link.
 
-<hr/>
-
 ## 2.2 Software quality
 To ensure the quality of my application, several points are taken into account: tests, security, performance, and Static Code Analysis / Code Reviews. In the paragraphs below you can find how these aspects contribute to the quality of the application.
 
 ### 2.2.1 Tests <br/>
-I conducted several tests within the application in order to ensure the quality, since it's easy to detect errors or issues by doing tests. When the tests are conducted, I am able to solve these issues and errors as soon as possible so the impact on the application is minimalized. Snippets of several tests you can find below.  
+I conducted several tests within the application in order to ensure the quality, since it's easy to detect errors or issues by doing tests. When the tests are conducted, I am able to solve these issues and errors as soon as possible so the impact on the application is minimized. Snippets of several tests you can find below.  
 
-**Unit Test**
+**Unit Test** <br/>
 With a Unit Test, software modules will be tested separately. So, more tests will be developed for each unit. In an ideal state all test cases are independent of other test. This is a way of testing which is fast and thoroughly, and which is easy to implement. In the example below you can find a unit test of the functionality of the handler. “GetCommentByModID”, where I test whether the input has a valid UUID (which corresponds to the format).  When the situation appears that the UUID is wrong, the test should give an error message. 
 
 *Snippet of Test* <br>
@@ -93,7 +85,7 @@ func TestIsValidExpired(t *testing.T) {
 }
 ```
 
-**Integration test**
+**Integration test** <br/>
 The next conducted test is an integration test, where individual software modules will be connected and tested as a whole. So, with this test we ensure the different modules actually work together. In the example below, the test checks whether two units (handler and repository) work together correctly, by verifying that if a correct request is sent to the handler "GetCommentByID" the expected result will come back. The expected result of this function means in this case that the requested modID is retrieved from the database without an error message.
 
 *Snippet of Test* <br>
@@ -127,7 +119,7 @@ func TestGetCommentByModID(t *testing.T) {
 }
 ```
 
-**Regression**
+**Regression** <br/>
 Finally, regression testing is a method that ensures the application is still working as expected after any code changes, updates or improvements. With this test the overall stability and functionality of the existing features of the application is secured. This is part of the System Test. The regression is tested in GitHub, by conducting all unit and integration tests at the moment a change takes place. I also perform tests in Postman, where
 
 I am able to test the entire back end with all functionalities, including the speed of the application. Below you can find a snippet where the 'User' collection is tested on speed and whether the input gives the expected results.
@@ -165,11 +157,11 @@ pm.test("Assure that unkown UserID status 500", function () {
 ```
 
 ### 2.2.2 Security <br/>
-To ensure security, several measurements are taken. My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This tool created a report which showed the vulnerability risks. I checked whether these risks where no big security risks. Since, this wasn't the case I am able to conclude the application functions in a safe way. [Zap Log Rapport](./utils/zapLog_rapport/2023-01-05-ZAP-Report-.html)
+To ensure security, several measurements are taken. My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This tool created a report which showed the vulnerability risks. I checked whether these risks were no big security risks. Since, this wasn't the case I am able to conclude the application functions in a safe way. Here you can find the [Zap Log Rapport](./utils/zapLog_rapport/2023-01-05-ZAP-Report-.html).
 
 I also used SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code. Some issues appeared. In example, that there was a connection string and also that I had some duplicated codes. I solved all of the issues that appeared.
 
-Based on my experience, I am also familiar with the common vulnerability ''SQL injection''. Beforhand, I took some measurements to make sure this vulnerability was covered, by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
+Based on my experience, I am also familiar with the common vulnerability "SQL injection". Beforehand, I took some measurements to make sure this vulnerability was covered, by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
 
 *without protection*
 ![sql injection example](./utils/security/sql_injectionExample.png)
@@ -212,39 +204,35 @@ Static Code Analysis is the process of detecting bad coding style, potential vul
 ![sonarcloud](./utils/sonarcloud.png)
 
 ## 2.3 Agile method
-**|DONE|<br>**
-_Individual project_
+_Individual project_ <br>
 During this semester we worked based on an Agile method in both, the group- and the individual project. Since there are several methods to work with Agile, I did some research to find out which method fits best for the project. You can read more about this analysis inside [this file](./research/agile.md).
 
-Kanban is a framework used to develop Agile. Within the individual project I choose to work with 'Kanban', because this methodology is easy to apply with a version control tool called GitHub. This allowed me to constantly sync issues to a Kanban board, in a way that the issue history still exists and are always up to date and is the same for everbody. < Working this way contributes to the principles of Agile to work with an adaptive planning, with evolutionary development, which enables early delivery and flexible responses to changes. In example, you can see one of the used sprints below.
+Kanban is a framework used to develop Agile. Within the individual project I choose to work with 'Kanban', because this methodology is easy to apply with a version control tool called GitHub. This allowed me to constantly sync issues to a Kanban board, in a way that the issue history still exists and are always up to date and is the same for everybody. Working this way contributes to the principles of Agile to work with an adaptive planning, with evolutionary development, which enables early delivery and flexible responses to changes. In example, you can see one of the used sprints below.
 
 ![project planning snippet](./utils/projectPlanning_snippet.png)
 
 Besides, on weekly basis there was a group discussion where we discussed the current progress with Hans van Heumen and the fellow students. Some of the feedback was converted in an issue which influenced and changed the Kanban board. In this way, also the collaborative effort and self-organizing principle are represented, and continual improvement is made possible.
  
 
-_Group project_
+_Group project_ <br>
 For our group project we opted for the 'Scrum' Agile method. We held a stand-up every day where we met to see how the designated tasks were going. This is typical for Scrum methods. These daily stand-ups allowed us to help each other and to discuss any feedback.  Just as the individual project, we had our issue overview linked to the Kanban board in 'Github', in this way we could see the progress of each other and were able to make sure everybody was engaged. Looking at Agile, this contributes to self-organizing and cross-functional teams, where continual improvement was guiding.
 
 What also contributed to the continual improvement was that we frequently visited the customer to make sure we were working on the right needs. In order to be flexible in responding to these changes we worked with sprints, including evolutionary development and early delivery.
 
 ## 2.4 CI/CD
-**|NeedsCheck|<br>**
 what?
 Inside the Github repositories I added Continuous Integration and Continuous Delivery via actions. I used this inside the group project and the individual project. Below you can see the integration I used for the repositories. 
 
 Continuous Integration
 - A push and pull request to the main branch will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
-- A push and pull request to the main branch will trigger a SonarCloud analyzer that validates the code on ‘Static code analysis / code reviews’ and ‘Security’. [Link to Actionaction](https://github.com/mxbikes/mxbikesclient.service.comment/blob/main/.github/workflows/sonarcloud.yml)
-- A push and pull request to the main branche will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
+- A push and pull request to the main branch will trigger a SonarCloud analyzer that validates the code on ‘Static code analysis / code reviews’ and ‘Security’. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/blob/main/.github/workflows/sonarcloud.yml)
+- A push and pull request to the main branch will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
 
 Continuous Delivery
 
 - A push to the main branch will test and then publish the project on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
 - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
 - A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).
-
-
 
 so what?
 This will assure the quality and security of my repository. Whenever someone makes a mistake and it gets on the repository which ends, I will be notified via email and all the users that visit the repository sees that it failed at the moment. Because it continues it also shortens the time and effort to deliver new features.
@@ -265,9 +253,9 @@ Talking about ethics, for the learning objective it's relevant that I am aware o
 
 ## 2.6 Requirements and design
 _Individual project_ <br/>
-In the individual project we started with setting up a list of non-functional requirements. These requirements I translated to a microservice architecture. Within this translation I made sure the business logic is well divided into different services. To validate the quality of the requirements and the structure of the architecture, Hans van Heumen (stakeholder) was asked to give feedback. After approval, we finalized the architecture diagrams, which you can find in the following document:  ‘(Architecture) [./mxBikesClient_documentation/architectureDesignDocument.md]’.
+In the individual project we started with setting up a list of non-functional requirements. These requirements I translated to a microservice architecture. Within this translation I made sure the business logic is well divided into different services. To validate the quality of the requirements and the structure of the architecture, Hans van Heumen (stakeholder) was asked to give feedback. After approval, we finalized the architecture diagrams, which you can find in the following document:  "[Architecture](./mxBikesClient_documentation/architectureDesignDocument.md)".
 
-Besides the validation of a stakeholder, I also made a testplan where the requirements have been tested in a step-by-step way. This testplan includes acceptance testing and feedback validation from a stakeholder. (Testing Documentation)[./mxBikesClient_documentation/testingDocumentation.md]’.
+Besides the validation of a stakeholder, I also made a testplan where the requirements have been tested in a step-by-step way. This testplan includes acceptance testing and feedback validation from a stakeholder. [Testing Documentation](./mxBikesClient_documentation/testingDocumentation.md)".
 
 Finally, a demo of the application was given where we manually tested all functionalities and we evaluated this with the quality properties such as security and performance.
 
