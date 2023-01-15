@@ -268,8 +268,6 @@ Based on the requirements, I developed an architecture (structure) for the appli
 
 I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLiveFlows](./isItLive_documentation/README.md#Software/-Component-Design)
 
-I ran into a challenge because there was an extra step to realize this. I made extra flowcharts for this so that the stakeholder could understand what the part in the application does exactly.
-
 By continuously checking whether we were on the same page with the customer and with each other, we ensured the satisfaction of the customer on the delivered project. And, we didn't waste time on any features that weren't necessary, since there were not part of the requirements.
 
 
@@ -287,8 +285,7 @@ My second Business processes
 ![Process-MxBikesClient_Login](./utils/businessProcess/NS-CheckIn.png)
 
 ## 2.8 Professional
-**|DONE|<br>**
-_Individual project_
+_Individual project_ <br>
 To show my professionality during the process I described several situations below. To start, during the individual project we held weekly group discussion meetings with other students, where we were able to help each other. In example, I helped Thisoban to develop his back-end and looked at any errors that came up. I helped Dirk with testing his application and troubleshooting in the back-end. Finally, I also discussed the developments of several functionalities with Bram and Sander, to learn from each other.
 
 Secondly, I wrote down a weekly report on FeedPulse by answering 3 important questions: "What did I do?", "What to work on next?" and "Where do I stand?".  In this way I was able to reflect on myself and on the same time I shared my progress with others. In these feedback conversations you can also briefly read which choices I made when and why.
@@ -298,7 +295,7 @@ Another point, is the moment when I realized I had a lack of knowledge. I solved
 Finally, a situation took place with my teacher, where there was a discussion about a mono repo and a multi repo in a group setting with other students. Since the discussion was only between the two of us and we didn't seem to find each other in our arguments, we ended the conversation. However, there were still some things unclear, so I decided to schedule an individual meeting where we were able to discuss further in a more appropriate setting. This ended up a good conversation with understanding, where there was enough room for both of our arguments. 
 
 
-_Group project_
+_Group project_ <br>
 Within the group project there were also several situations where I improved and showed my professionality. To begin, I came up with the idea for an architecture of the application and made an example of it. I also made flowcharts, so that everyone can easily see what everything does in a visual way. Both of these, we discussed with the group for feedback and together we processed this. I also checked with everyone to make sure they understood what I meant. All the non-verbal feedback which was given and received, I processed in the peer reviews at the end of the sprints. 
  
 Secondly, there was miscommunication about several mandatory functionalities. Everyone only focused on their own to do's and in the end the functionalities didn't fit well together. To solve this, I started with an inventory of all of these issues and recorded them in a clear way. After that, I translated these issues into tasks and divided them between the group members, so that we were able to move on with linking all of the functionalities together.
@@ -308,20 +305,19 @@ Finally, I spent a lot of time by helping all the group members when they needed
 <hr/>
 
 # 3. Individual Project (MxBikesClient)
-For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)".   
+For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I acquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)".   
 [View project](./mxBikesClient_documentation/README.md)
 
 ![MxBikesClientHomepage](./utils/MxBikesClientHomepage.png)
 
 # 4. Group Project (IsItLive)
 
-For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./isItLive_documentation/utils/IsItLive_Demo.mp4)".   
+For the group project we got an assignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a retailer's website. Inside this file every chapter contains learning outcomes that I acquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./isItLive_documentation/utils/IsItLive_Demo.mp4)".   
 [View project](./isItLive_documentation/README.md)
 
 ![IsItLiveHomepage](./utils/IsItLiveHomepage.png)
 
 # 5. Reflection
-**|DONE|<br>**
 To be able to correctly reflect to this project, I asked three questions to myself based on the reflection model of Gibbs:
 
 -   Evaluation: What went well and what went wrong?
