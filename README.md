@@ -264,36 +264,25 @@ Talking about ethics, for the learning objective it's relevant that I am aware o
 
 
 ## 2.6 Requirements and design
-**|NeedsCheck|<br>**
-_Individual project_<br/>
-What
-Ik heb de non-functional requirements vertaald naar een microservice architectuur waar de logica goed verdeeld is in verschillende services en dit overlegd met de stakeholder/ Hans Heumen. Deze architectuur diagrammen bevinden zich in het volgende bestand: ‘(Architecture)[./mxBikesClient_documentation/architectureDesignDocument.md]’.
+_Individual project_ <br/>
+In the individual project we started with setting up a list of non-functional requirements. These requirements I translated to a microservice architecture. Within this translation I made sure the business logic is well divided into different services. To validate the quality of the requirements and the structure of the architecture, Hans van Heumen (stakeholder) was asked to give feedback. After approval, we finalized the architecture diagrams, which you can find in the following document:  ‘(Architecture) [./mxBikesClient_documentation/architectureDesignDocument.md]’.
 
-Ook heb ik een testplan opgesteld waar ik de requirements test op stapsgewijze manier. Een van de onderdelen die hier naar voren komen zijn user acceptance testen en feedback validatie van een stakeholder om de kwaliteit van de requirements vast te stellen.‘ (Testing Documentation)[./mxBikesClient_documentation/testingDocumentation.md]’.
+Besides the validation of a stakeholder, I also made a testplan where the requirements have been tested in a step-by-step way. This testplan includes acceptance testing and feedback validation from a stakeholder. (Testing Documentation)[./mxBikesClient_documentation/testingDocumentation.md]’.
 
-Hiernaast is er een demo van de applicatie gegeven waar we alle functionaliteiten handmatig getest is en hebben we we dit geëvalueerd met de quality properties zoals security en performance. 
+Finally, a demo of the application was given where we manually tested all functionalities and we evaluated this with the quality properties such as security and performance.
 
-So what
-Hierdoor kan ik garanderen dat de opgestelde requirements correct zijn vertaald naar een eind applicatie. Ook kan ik garanderen dat de applicatie voldoet aan de behoefte van de stakeholder en de eventuele eindgebruiker.
-
-now what?
-Eventuele mede ontwikkelaars die zich bij het project voegen kunnen gestructureerd zien hoe de applicatie is opgebouwd en hier dus gemakkelijk mee werken. Ook kunnen de gebruikers gebruik maken van de applicatie zonder dat hier fout in zit (binnen de test kaders).
-
+With these multiple types of testing I can assure that the requirements have correctly been translated into an end application, and I can also confirm that the application meets the expectation of the stakeholders, since we tested for all of this. An additional advantage is that every new stakeholder can precisely see what the requirements are and how we came to the finished application.
 
 _Group project_<br/>
-What
-We hebben voor het groepsproject het aangeleverde probleem met een aanduidings gesprek gehad. Vanuit dit gesprek hebben we requirements opgesteld en deze besproken en verder afgestemd.
-[Requirements](./isItLive_documentation/requirements.md)
+Regarding the requirements of the group project, we started with a problem analysis with the group. After that we had a meeting with World of Content (stakeholder), to specify the needs. From this conversation we developed a first draft of the requirements, discussed and aligned them again. Until we came to the final document. [Requirements](./isItLive_documentation/requirements.md) This also was part of the testing process.
 
-Op deze requirements heb ik een architectuur/ structuur voor de applicatie bedacht waarmee we goed en snel de verschillende onderdelen konden ontwikkelen en deze gemakkelijk later samen voegen. Ook zorgt heeft iedere onderdeel van deze structuur maar een taak waardoor het project makkelijk te begrijpen is. Om de leercurve van deze architectuur omlaag te halen heb ik een voorbeeld applicatie gemaakt en hier een demonstratie van geven voor de groep. [isItLive Architecture](./isItLive_documentation/README.md#Architecture) 
+Based on the requirements, I developed an architecture (structure) for the application, to ensure that we were able to develop different parts well and quickly, and easily merge them later. Since, every part of this structure only has one tasks, it makes the project easy to understand. Again, we worked with stakeholder feedback, in this case of the project group. I gave a demonstration, and we discussed some changes afterwards. [isItLive Architecture](./isItLive_documentation/README.md#Architecture)
 
-Een taak die ik had ging over het scrapen van de AlbertHeijn producten. Hier liep ik tegen een uitdaging aan omdat er een extra stap bij kwam om dit te realiseren. Ik heb hiervoor extra flowcharts gemaakt zodat de stakeholder kon begrijpen wat het onderdeel in de applicatie precies doet. [isItLive Flows](./isItLive_documentation/README.md#Software/ Component Design) 
+I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLive Flows](./isItLive_documentation/README.md#Software/ Component Design)
 
-So what
-Hierdoor heeft de stakeholder en de medestudenten uit de groep goede feedback kunnen geven zonder dat er diep werd ingagaan op het ontwikkelen ervan. Ik kan hierdoor garanderen dat de opgestelde requirements correct zijn vertaald naar een eind applicatie. Ook kan ik garanderen dat de applicatie voldoet aan de behoefte van de stakeholder.
+I ran into a challenge because there was an extra step to realize this. I made extra flowcharts for this so that the stakeholder could understand what the part in the application does exactly.
 
-now what?
-De duidelijke requirements en ontwerpen hebben ervoor gezorgd dat de stakeholder erg tevreden is over het opgeleverde project. Ook hebben we geen tijd verspild aan eventuele features die niet noodzakelijk waren.
+By continuously checking whether we were on the same page with the customer and with each other, we ensured the satisfaction of the customer on the delivered project. And, we didn't waste time on any features that weren't necessary, since there were not part of the requirements.
 
 
 ## 2.7 Business processes
