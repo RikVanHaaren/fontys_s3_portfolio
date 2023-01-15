@@ -255,18 +255,18 @@ Talking about ethics, for the learning objective it's relevant that I am aware o
 _Individual project_ <br/>
 In the individual project we started with setting up a list of non-functional requirements. These requirements I translated to a microservice architecture. Within this translation I made sure the business logic is well divided into different services. To validate the quality of the requirements and the structure of the architecture, Hans van Heumen (stakeholder) was asked to give feedback. After approval, we finalized the architecture diagrams, which you can find in the following document:  "[Architecture](./mxBikesClient_documentation/architectureDesignDocument.md)".
 
-Besides the validation of a stakeholder, I also made a testplan where the requirements have been tested in a step-by-step way. This testplan includes acceptance testing and feedback validation from a stakeholder. [Testing Documentation](./mxBikesClient_documentation/testingDocumentation.md)".
+Besides the validation of a stakeholder, I also made a testplan where the requirements have been tested in a step-by-step way. This testplan includes acceptance testing and feedback validation from a stakeholder: [Testing Documentation](./mxBikesClient_documentation/testingDocumentation.md)".
 
 Finally, a demo of the application was given where we manually tested all functionalities and we evaluated this with the quality properties such as security and performance.
 
 With these multiple types of testing I can assure that the requirements have correctly been translated into an end application, and I can also confirm that the application meets the expectation of the stakeholders, since we tested for all of this. An additional advantage is that every new stakeholder can precisely see what the requirements are and how we came to the finished application.
 
-_Group project_<br/>
-Regarding the requirements of the group project, we started with a problem analysis with the group. After that we had a meeting with World of Content (stakeholder), to specify the needs. From this conversation we developed a first draft of the requirements, discussed and aligned them again. Until we came to the final document. [Requirements](./isItLive_documentation/requirements.md) This also was part of the testing process.
+_Group project_ <br/>
+Regarding the requirements of the group project, we started with a problem analysis with the group. After that we had a meeting with World of Content (stakeholder), to specify the needs. From this conversation we developed a first draft of the requirements, discussed and aligned them again. Until we came to the final document: [Requirements](./isItLive_documentation/requirements.md). This also was part of the testing process.
 
 Based on the requirements, I developed an architecture (structure) for the application, to ensure that we were able to develop different parts well and quickly, and easily merge them later. Since, every part of this structure only has one tasks, it makes the project easy to understand. Again, we worked with stakeholder feedback, in this case of the project group. I gave a demonstration, and we discussed some changes afterwards. [isItLive Architecture](./isItLive_documentation/README.md#Architecture)
 
-I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLive Flows](./isItLive_documentation/README.md#Software/ Component Design)
+I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLiveFlows](./isItLive_documentation/README.md#Software/-Component Design)
 
 I ran into a challenge because there was an extra step to realize this. I made extra flowcharts for this so that the stakeholder could understand what the part in the application does exactly.
 
