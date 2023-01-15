@@ -235,6 +235,7 @@ Now I can assure the quality of my project and test if the project meets certain
 
 
 ## 2.5 Cultural differences and ethics
+```
 [OUD]
 *Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
 
@@ -243,10 +244,9 @@ Hiernaar heb ik deze aspecten toegepast in het groepsproject hoe wij als verschi
 Tot slot kwam ik de ‘Code of Ethics and Professional Conduct’ waarvan ik 1 guideline heb uitgewerkt.
 
 De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.*
+```
 
-
-**TODO:Etics bestand toevoegen**
-[NEW]
+[NEW]<br>
 _culture_
 what?
 Voor dit leerdoel heb ik een van de testen gebruikt die we tijdens een workshop zouden krijgen maar doordat deze niet doorging ben ik hier verder naar gaan onderzoeken. Een deze test praat ik over de ethische aspecten die uit deze test naar voren kwamen en wat ik ervan vind en hoe ik dit kan verbeteren.
@@ -328,9 +328,6 @@ Finally, I spent a lot of time by helping all the group members when they needed
 <hr/>
 
 # 3. Individual Project (MxBikesClient)
-
-![Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)
-
 For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it.  
 [View project](./mxBikesClient_documentation/README.md)
 
