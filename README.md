@@ -24,8 +24,8 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
   * [2.6 Requirements and design](#26-requirements-and-design)
   * [2.7 Business processes](#27-business-processes)
   * [2.8 Professional](#28-professional)
-- [3. Individual Project (MxBikesClient)](#3-individual-project--mxbikesclient-)
-- [4. Group Project (IsItLive)](#4-group-project--isitlive-)
+- [3. Individual Project (MxBikesClient)](#3-individual-project)
+- [4. Group Project (IsItLive)](#4-group-project)
 - [5. Reflection](#5-reflection)
 
 
