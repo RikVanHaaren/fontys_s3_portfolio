@@ -218,7 +218,9 @@ Continuous Integration
 - A push and pull request to the main branch will trigger a build that compiles the code into an executable, after that it will test the code on Go version '1.19'. [Link to Action](https://github.com/mxbikes/mxbikesclient.service.comment/actions/workflows/go.yml)
 - A push and pull request to the main branch will trigger a SonarCloud analyzer that validates the code on ‘Static code analysis / code reviews’ and ‘Security’. [Link to Actionaction](https://github.com/mxbikes/mxbikesclient.service.comment/blob/main/.github/workflows/sonarcloud.yml)
 - A push and pull request to the main branche will trigger the tests that checks the application in Node version: '14.x', '16.x', '18.x'. [workflows CI](https://github.com/RikVanHaaren/ah_shop_api/actions/workflows/node.js.yml)
+
 Continuous Delivery
+
 - A push to the main branch will test and then publish the project on "hub.docker". [service-comment image](https://hub.docker.com/repository/docker/rikvanhaaren/service-comment/general)
 - The go project will regularly add or update the project to pkg.go.dev. [golang package protobuf](https://pkg.go.dev/github.com/mxbikes/protobuf)
 - A new release will trigger the tests and will then publish the release on [NPM ah_shop_api](https://www.npmjs.com/package/@rikvanhaaren/ah_shop_api).

@@ -22,3 +22,8 @@ In het eerste optiek was ik hier niet bewust mee bezig omdat ik probeerden mijn 
 
 now what?
 Deze reflectie heeft me geholpen met het inzien welke waarden en normen in deze situatie spelen. Dit heeft me meer inzicht gegeven in de lastige keuzes welke gegevens ik kan opslaan en hoe ik hiermee om moet gaan. Hierdoor zit ik beter op een lijn met de gebruikers van de applicatie. Ook kan hier in de toekomst beter rekening mee houden omdat ik in eerste instantie niet wist dat ik hier verkeerd mee om ging.
+
+Bronnen:
+https://www.termsfeed.com/blog/gdpr-log-data/#Personal_Data
+https://www.acm.org/code-of-ethics
+https://www.academia.edu/22298452/Ethical_dilemma_Log_files_what_to_save_and_how_to_handle_them

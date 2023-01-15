@@ -16,3 +16,8 @@ Omdat uit deze blauw het minst sterk naar voren is gekomen en ik dat ik het ook 
 
 ![outcome](../utils/etics/colorTest-outcome.png)
 ![meaning](../utils/etics/verandermanagement-kleurendenken-caluwe.png)
+
+Bronnen:
+https://commendatio.nl/test/kleurentest-caluwe/#:~:text=Doel%20Kleurentest&text=Uit%20deze%20test%20komt%20naar,met%20elkaar%20in%20overeenstemming%20zijn.
+
+https://boomstrategie.nl/model/veranderen-met-het-kleurenmodel-van-de-caluwe-vermaak
