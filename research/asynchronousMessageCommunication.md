@@ -3,10 +3,8 @@ Hans van Heumen
 Individual project   
 18 Oktober 2022   
  
-<center></center>
-
-<center>Asynchronous message-based communication</center>
-<center><b>Introduction</b></center>
+<p align="center">Asynchronous message-based communication</p>
+<p align="center"><b>Introduction</b></p>
 Synchronous communication is good if your communication is only between a few microservices. But when it comes to several microservices need to call each other and wait some long operations until finished, then we should use async communication. Otherwise that dependency and coupling of microservices will create bottleneck and create serious problems of the architecture.
 	
  
