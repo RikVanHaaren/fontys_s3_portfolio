@@ -336,29 +336,6 @@ For my individual project I had chosen an idea that I wanted to create for a lon
 For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it.  
 [View project](./isItLive_documentation/README.md)
 
-# 4. Decision Justification
-
-**Back-end**
-
--   Golang
-
-**Front-end**
-
--   React
--   Tailwind
-
-**Storage**
-
--   Postgres
--   Minio
-
--   Sonarcloud
--   Auth0
--   Docker
--   Protobuffer
--   GRPC
--   Rest
-
 # 5. Reflection
 **|DONE|<br>**
 To be able to correctly reflect to this project, I asked three questions to myself based on the reflection model of Gibbs:
