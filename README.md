@@ -10,7 +10,13 @@ Fontys semster 3 portfolio of the associate degree, ICT &amp; Software Engineeri
 -   [1. Introduction]()
 -   [2. Learning Outcomes]()
     -   [2.1 Web application]()
+		- [2.1.1 User-friendly]()
+		- [2.1.2 Full-stack]()
     -   [2.2 Software quality]()
+		- [2.2.1 Tests]()
+		- [2.2.2 Security]()
+		- [2.2.3 Performance]()
+		- [2.2.4 Static Code Analysis / code reviews]()
     -   [2.3 Agile method]()
     -   [2.4 CI/CD]()
     -   [2.5 Cultural differences and ethics]()
@@ -44,7 +50,7 @@ To ensure the user friendliness there a several measurements taken. First, I cre
 _Group project_<br/>
 In order to make sure the full stack application is user friendly, first the requirements (included in [this](./isItLive_documentation/requirements.md) paragraph) were aligned with World of Content. Based on these requirements we designed a wire frame with the project group. The design was checked with World of Content. The aspect of user-friendliness is also taken into account within this check, since the retailers are the customers of World of content and are the users of the product.
 
-2.1.2 Full-stack<br/>
+### 2.1.2 Full-stack
 _Individual project_<br/>
 The individual project is designed and build based on a full stack application, since I designed and build a separate back- and front-end. The front-end is developed as a single page application, with the framework React (a Javascript based framework). The back-end which is developed with multiple micro services, insight this microservice you can find multiple commonly used techniques like Object Relational Mapping. For the communication protocol I use http. To address asynchronous communication issues, several tests are executed to prevent issues from occurring. Also, the deployment environment wil restart when a process is offline and all issues will be logged.
 
@@ -159,7 +165,7 @@ pm.test("Assure that unkown UserID status 500", function () {
 ```
 
 ### 2.2.2 Security <br/>
-To ensure security, several measurements are taken. My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This tool created a report which showed the vulnerability risks. I checked whether these risks where no big security risks. Since, this wasn't the case I am able to conclude the application functions in a safe way.
+To ensure security, several measurements are taken. My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This tool created a report which showed the vulnerability risks. I checked whether these risks where no big security risks. Since, this wasn't the case I am able to conclude the application functions in a safe way. [Zap Log Rapport](./utils/zapLog_rapport/2023-01-05-ZAP-Report-.html)
 
 I also used SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code. Some issues appeared. In example, that there was a connection string and also that I had some duplicated codes. I solved all of the issues that appeared.
 
