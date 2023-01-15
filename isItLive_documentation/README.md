@@ -12,7 +12,7 @@ Live score is a metric to see how much content we have realized internally can b
   - [2.3 CI/CD](#23-CICD)
 
 ## 1. Introduction
-My main goal in the group project was to realize the AlbertHeijn Scraper. In this document you can read about this specific task. If you want to see more about the the project in total you can visit the on this link: “(Is It Live)[https://github.com/S3-DB03/IsItLive]”
+My main goal in the group project was to realize the AlbertHeijn Scraper. In this document you can read about this specific task. If you want to see more about the the project in total you can visit the on this link: “[IsItLive Repository](https://github.com/S3-DB03/IsItLive)”
 
 ## 2. Albertheijn Scrapper
 One of my task was to create a scrappers that gets the product from AlbertHeijn webshop. Is is importend to document these steps because the team needs to use in the main application.   
