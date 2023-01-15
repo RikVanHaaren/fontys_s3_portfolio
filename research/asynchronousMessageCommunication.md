@@ -14,7 +14,7 @@ We should understand that isolation is important between microservices, we shoul
 If we have a few interaction with querying microservices then we should use HTTP request/response with resource APIs. But when it comes to busy interactions in communication across multiple microservices, then we should use asynchronous messaging platforms like message broker systems.
 We said Asynchronous protocols, which is AMQP protocol for performing async message transmissions. In this AMQP protocol, the producer send a message and doesn’t wait a response. It only send message and expects that it will consume by subscriber services via to message broker systems.
 
-<center>![asynchronous](../utils/asynchronous.png)</center>
+![asynchronous](../utils/asynchronous.png)
 
 Works Cited
 https://medium.com/design-microservices-architecture-with-patterns/microservices-asynchronous-message-based-communication-6643bee06123
