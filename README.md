@@ -266,7 +266,7 @@ Regarding the requirements of the group project, we started with a problem analy
 
 Based on the requirements, I developed an architecture (structure) for the application, to ensure that we were able to develop different parts well and quickly, and easily merge them later. Since, every part of this structure only has one tasks, it makes the project easy to understand. Again, we worked with stakeholder feedback, in this case of the project group. I gave a demonstration, and we discussed some changes afterwards. [isItLive Architecture](./isItLive_documentation/README.md#Architecture)
 
-I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLiveFlows](./isItLive_documentation/README.md#Software/-Component Design)
+I would like to shortly address one situation about scraping products of AlbertHeijn. I encountered a challenge, since an additional step was asked. To ensure all stakeholders understood what was happening, I made an extra flowchart. [isItLiveFlows](./isItLive_documentation/README.md#Software/-Component-Design)
 
 I ran into a challenge because there was an extra step to realize this. I made extra flowcharts for this so that the stakeholder could understand what the part in the application does exactly.
 
