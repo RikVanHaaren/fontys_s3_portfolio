@@ -233,14 +233,55 @@ Now I can assure the quality of my project and test if the project meets certain
 
 
 ## 2.5 Cultural differences and ethics
-Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
+[OUD]
+*Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
 
 Hiernaar heb ik deze aspecten toegepast in het groepsproject hoe wij als verschillende ontwikkelaars samenwerken.
 
 Tot slot kwam ik de ‘Code of Ethics and Professional Conduct’ waarvan ik 1 guideline heb uitgewerkt.
 
-De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.
+De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.*
+
+
 **TODO:Etics bestand toevoegen**
+[NEW]
+_Cultural differences_
+Kleurentest van De Caluwé
+what?
+We zouden een workshop krijg over deze leeruitkomst helaas ging deze niet door vanwege omstandigheden. voor deze workshop werd iedereen gevraagd om 2 testen te doen waarbij de ene test ging over je cultuur en de andere ging over teamrol.
+
+De kleur wit kwam bij mij het sterkst naar voren: verantwoordelijk, eigenwijs, zelf kiezen, chaostheorie en intuïtie.
+En de kleur blauw was het laagst: afspraak is afspraak, diagnose, doelstellingen, opstellen plannen en KSF’en pi’s.
+
+Ik vind het heel erg interessant hoe naar mijn mening deze score overeenkomt met mijn persoonlijke mening. Je kunt hier specifieke punten waar ik goed in was en minder goed terug lezen in de reflectie en hier zag ik punten die overeenkomen.
+
+so what?
+Kleurentest van De Caluwé staat in het teken voor zelf verbetering, als je lager op een kleur scoort dan kun je er bewust over nadenken en bij stilstaan hoe dit kun verbeteren. Hierdoor verbeter je je culturele verschillen op een positieve manier.
+
+
+now what?
+Omdat uit deze blauw zo sterk naar voren is gekomen en dit ook terugkomt in de zelf reflectie heb ik een aantal punten waar ik een aanpassing op geschreven heb. Een van deze punten is bijvoorbeeld plannen. In de reflectie vertel ik dat ik veel bezig was met het helpen van andere en dat mijn focus te veel op het groeps project lag. In de reflectie schrijf ik dat ik beter mijn prioriteiten moet verdelen samen met mijn tijd. 
+
+_ethics_
+Nadat ik onderzoek heb gedaan wat etics precies inhield ging ik terug in het verleden kijken wat voor ethisch onderwerp ik te maken heb gehad op basis van mijn ervaring. Hier kwam ik punt: “Logbestanden opslaan van gebruikers”. In het begin van mijn carrière vond ik het erg fijn om alle gegevens waar ik gebruik van maakten te loggen en opslaan in een logbestand zodat op het moment als er iets fout ging in mijn applicatie ik gemakkelijk kon terug traceren wat hier precies fout ging. 
+
+**Scenario**
+what?
+In een applicatie die ik op dit moment gebruik voor persoonlijk gebruik sla ik een log op van alle verzoeken die op de server binnen komen om de veiligheid te garanderen. In deze log bevinden zich IP addressen voornamelijk dynamic IP adressen, van iedere gebruiker die probeerden verbinding te maken met de server en met wat voor verzoek.
+
+Omdat je een persoon kan identificeren met een dynamic IP adres wordt dit beschouwd als persoonlijke data.
+
+so what?
+Omdat ik mijn eigen applicatie probeerden veilig te houden door deze informatie op te slaan en naar problemen te kunnen herleiden was ik onbewust strafbaar omdat ik niet goed omging met persoonlijke gegevens. Ik heb daarom de IP adressen uit de weggehaald zodat deze nergens meer terug komen.
+
+now what?
+Het is lastig om je altijd bewust te zijn van regels die bij software ontwikkeling komen, toch bestaan er veel tools die je hierbij kunnen helpen. Het is goed om in eerste instantie na te gaan of je het ethisch vindt om deze gegevens op te slaan.
+
+
+
+Toen ik dit verder ging onderzoek kwam ik EU's General Data Protection Regulation (GDPR). Dit is een wedstelstel die geldig is in europa en gaat over welke persoonlijke gegevens je wel en niet mag verzamelen. 
+
+
 
 ## 2.6 Requirements and design
 **|NeedsCheck|<br>**
