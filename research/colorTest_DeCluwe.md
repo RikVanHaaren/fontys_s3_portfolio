@@ -1,23 +1,20 @@
-# Kleurentest van De Caluwé
-what?
-We zouden een workshop krijg over deze leeruitkomst helaas ging deze niet door vanwege omstandigheden. voor deze workshop werd iedereen gevraagd om 2 testen te doen waarbij de ene test ging over de Kleurentest van De Caluwé en de andere ging over teamrollen.
+# Color test by De Caluwé
+We were supposed to get a workshop about this learning outcome, unfortunately it was canceled due to circumstances. For this workshop everyone was asked to do 2 tests where one test was about De Caluwé's Color Test and the other was about team roles. I was very curious about the color test and I researched it myself. 
 
-Voordat ik de Kleurentest van De Caluwé ging maken heb ik eerst even doorgelezen wat deze test inhoud. Het doel van deze kleurentest is mijn inzicht te versterken in de wijze waarop je denkt en handelt in een veranderproces. Uit deze test komt naar voren waar mijn relatieve voorkeuren liggen op basis van de 5 kleuren met daarin in de veranderkundige groepen. Er komt ook uit naar voren in welke mate ik denk en doen met elkaar in overeenstemming zijn.
+Before I started making the De Caluwé Color Test, I first read through what this test entails. The purpose of this color test is to strengthen my insight into the way you think and act in a change process. This test shows where my relative preferences lie based on the 5 colors containing the change management groups. It also shows to what extent my thinking and actions are in agreement.
 
-Nadat ik de test heb afgelegd ben ik gaan kijken naar de kleur die het hoogste was en naar de kleur die het laagste was. De kleur wit kwam bij mij het sterkst naar voren: verantwoordelijk, eigenwijs, zelf kiezen, chaostheorie en intuïtie. En de kleur blauw was het laagst: afspraak is afspraak, diagnose, doelstellingen, opstellen plannen en KSF’en pi’s.
+After taking the test, I went to look at the color that was the highest and the color that was the lowest. The color white stood out the most to me: responsible, stubborn, self-chosen, chaos theory and intuition. And the color blue was the lowest: a deal is a deal, diagnosis, objectives, drawing up plans and KSF’en pi’s.
 
-Ik vind het heel erg interessant hoe naar mijn mening deze score overeenkomt met mijn persoonlijke mening. Je kunt hier specifieke punten waar ik goed in was en minder goed terug lezen in de reflectie en hier zag ik punten die overeenkomen.
+I find it very interesting how in my opinion this score corresponds to my personal opinion. You can read specific points that I was good at and less good at in the reflection and here I saw points that match.
 
-so what?
-Kleurentest van De Caluwé staat in het teken voor zelf verbetering, als je lager op een kleur scoort dan kun je er bewust over nadenken en bij stilstaan hoe dit kun verbeteren. Hierdoor kun je er voor zorgen dat je eventuele problemen die je binnen een groep kunt delen zodat andere hier rekening mee kunnen houden of je kunt er zelf mee aan de slag gaan. Tenzij dat je tevreden bent met de uitslag dan kun je hoef je hier niks te veranderen.
+The De Caluwé color test is all about self-improvement, if you score lower on a color then you can consciously think about it and consider how you can improve it. This allows you to ensure that you can share any problems you have within a group so that others can take this into account or you can work on it yourself. Unless you are happy with the result then you don't have to change anything here.
 
-now what?
-Omdat uit deze blauw het minst sterk naar voren is gekomen en ik dat ik het ook kan terug zien in de reflectie. Hierom heb ik een aantal punten uit deze kleur opgeschreven wat ik hier aan kan verbeteren. Een van deze punten is bijvoorbeeld plannen. In de reflectie vertel ik dat ik veel bezig was met het helpen van andere en dat mijn focus te veel op het groeps project lag. In de reflectie schrijf ik dat ik beter mijn prioriteiten moet verdelen samen met mijn tijd. 
+Because this blue has come out the least strongly and I can also see it in the reflection. That is why I have written down a number of points from this color that I can improve on. For example, one of these points is planning. In the reflection I tell that I was busy helping others and that my focus was too much on the group project. In the reflection I write that I should better divide my priorities together with my time.
 
 ![outcome](../utils/etics/colorTest-outcome.png)
-![meaning](../utils/etics/verandermanagement-kleurendenken-caluwe.png)
+![meaning](../utils/etics/changemanagement-colorthinking-caluwe.png)
 
-Bronnen:
-https://commendatio.nl/test/kleurentest-caluwe/#:~:text=Doel%20Kleurentest&text=Uit%20deze%20test%20komt%20naar,met%20elkaar%20in%20overeenstemming%20zijn.
+Sources:
+https://commendatio.nl/test/colortest-caluwe/#:~:text=Doel%20Color Test&text=From%20this%20test%20comes%20to,with%20each other%20in%20agreement%20.
 
-https://boomstrategie.nl/model/veranderen-met-het-kleurenmodel-van-de-caluwe-vermaak
+https://boomstrategie.nl/model/veranderen-met-het-kleurmodel-van-de-caluwe-vermaak

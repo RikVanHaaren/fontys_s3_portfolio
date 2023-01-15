@@ -1,29 +1,17 @@
-# Etics
+# Ethics
+After researching what exactly ethics entailed, I looked at my project to see if there are any ethical issues with it. This is where I came to the point: “Save user log files”. I really liked logging all the data I used and storing it in a log file so that when something went wrong in my application I could easily trace back exactly what went wrong here .
 
-what?
-Nadat ik onderzoek heb gedaan wat etics precies inhield ging ik terug in het verleden kijken wat voor ethisch onderwerp ik te maken heb gehad op basis van mijn ervaring. Hier kwam ik punt: “Logbestanden opslaan van gebruikers”. In het begin van mijn carrière vond ik het erg fijn om alle gegevens waar ik gebruik van maakten te loggen en op te slaan in een logbestand zodat op het moment als er iets fout ging in mijn applicatie ik gemakkelijk kon terug traceren wat hier precies fout ging. 
+In the “ACM Code of Ethics and Professional Conduct, 1.6 Respect and Privacy”. Is it about that you have to take responsibility and have respect with the collection of data and this also specifically on personal information. So I started searching the internet for what falls under this. I came across the EU's General Data Protection Regulation (GDPR). This is a legal system that is valid in Europe and is about what personal data you can and cannot collect. Personal data means according to [Article 4 (1)](https://www.termsfeed.com/blog/gdpr-articles/#Article_4_Definitions), means information that can be used to identify a person.
 
-In de “ACM Code of Ethics and Professional Conduct, 1.6 Respect and Privacy”. Gaat het erover dat je de verantwoordelijkheid moet nemen en respect moet hebben met het verzamelen van data en dit ook specifiek op persoonlijke informatie. Hierdoor ben ik op het internet gaan zoeken wat hieronder valt. Ik kwam op de EU's General Data Protection Regulation (GDPR). Dit is een wedstelstel die geldig is in europa en gaat over welke persoonlijke gegevens je wel en niet mag verzamelen. Persoonlijke gegevens betekenen volgens [Article 4 (1)](https://www.termsfeed.com/blog/gdpr-articles/#Article_4_Definitions), means information that can be used to identify a person.
+*Scenario*
+In een van de projecten log ik alle IP adressen samen met het verzoek wat ze sturen. Ik doe dit omdat ik wil voorkomen dat gebruikers die geen toegang hebben tot bepaalde poorten per ongeluk toegang krijgen tot gevoelige bestanden. Omdat je een persoon kan identificeren met een dynamic IP adres wordt dit beschouwd als persoonlijke data.
 
+In the first view, I was not aware of this because I tried to properly maintain my application and prevent any attacks by saving it. After these studies, I've started to look at this very differently and I personally don't think it's ethical to store all this data from users. In addition to the ethical aspect, according to the law, I also did not handle this information properly. 
+Before I will put this online, I will have to draw up a privacy policy stating that I store this data. An alternative is to remove this IP address for now and ask the service provider if they want to provide this IP address when I notice that something is not right.
 
-Scenario
-what?
-In een applicatie die ik op dit moment gebruik voor persoonlijk gebruik sla ik een log op van alle verzoeken die op de server binnen komen om de veiligheid te garanderen. In deze log bevinden zich IP addressen voornamelijk dynamic IP adressen, van iedere gebruiker die probeerden verbinding te maken met de server en met wat voor verzoek. Omdat je een persoon kan identificeren met een dynamic IP adres wordt dit beschouwd als persoonlijke data.
+This reflection helped me to understand which values and norms play a role in this situation. This has given me more insight into the difficult choices of which data to store and how to deal with it. As a result, I am better aligned with the users of the application. It is also better to take this into account in the future because I did not know at first that I was dealing with this wrong.
 
-so what?
-Doordat ik mijn eigen applicatie probeerden veilig te houden door deze informatie op te slaan en naar problemen te kunnen herleiden was ik onbewust strafbaar omdat ik niet goed omging met persoonlijke gegevens. Ik heb daarom de IP adressen uit de weggehaald zodat deze nergens meer terug komen.
-
-now what?
-Het is lastig om je altijd bewust te zijn van regels die bij software ontwikkeling komen, toch bestaan er veel tools die je hierbij kunnen helpen. Het is goed om in eerste instantie na te gaan of je het ethisch vindt om deze gegevens op te slaan en dit na te controleren met de wetgeving. 
-
-
-so what?
-In het eerste optiek was ik hier niet bewust mee bezig omdat ik probeerden mijn applicatie goed te onderhgouden en eventuele aanvallen te voorkomen door het op te slaan. Na deze onderzoeken ben ik hier heel anders naar gaan kijken en vind ik het persoonlijk niet ethisch om al deze gegevens van gebruikers op te slaan. Naast het ethische aspect ging ik volgens het wetsvoorstel ook niet goed met deze gegevens om.
-
-now what?
-Deze reflectie heeft me geholpen met het inzien welke waarden en normen in deze situatie spelen. Dit heeft me meer inzicht gegeven in de lastige keuzes welke gegevens ik kan opslaan en hoe ik hiermee om moet gaan. Hierdoor zit ik beter op een lijn met de gebruikers van de applicatie. Ook kan hier in de toekomst beter rekening mee houden omdat ik in eerste instantie niet wist dat ik hier verkeerd mee om ging.
-
-Bronnen:
+Sources:
 https://www.termsfeed.com/blog/gdpr-log-data/#Personal_Data
 https://www.acm.org/code-of-ethics
 https://www.academia.edu/22298452/Ethical_dilemma_Log_files_what_to_save_and_how_to_handle_them
