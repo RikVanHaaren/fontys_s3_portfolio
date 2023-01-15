@@ -1,10 +1,7 @@
-# 🚧 Testing Documentation
-I just read about this concept and want to add it to the project.
-
 ## Table of contents
 - [1. Introduction](#1-Introduction)
-- [1. Test Plan](#1-Test-Plan)
-- [1. Test Cases](#1-Test-Cases)
+- [2. Test Plan](#2-Test-Plan)
+- [3. Test Cases](#3-Test-Cases)
 
 ## 1. Introduction
 This file contains a test plan that needs to be followed when the application is deployed or when a new feature is added or removed. The test plan contains steps that need to be followed and the Test Cases is a part of this plan. 
