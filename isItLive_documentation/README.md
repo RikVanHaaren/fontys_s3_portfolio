@@ -4,8 +4,6 @@
 For our group project we where ask to solve a problem from [World of Content](https://worldofcontent.com/nl-nl/). The assignment was as followed:
 Live score is a metric to see how much content we have realized internally can be found on a retailer's website. Example: three attributes are shared with the Albert Heijn (Title, Brand and Description). AlbertHeijn has only put the Title and Brand online, the live score could then be 66%.
 
-
-
 ## Table of contents
 - [1. Introduction](#1-introduction)
 - [2. Albertheijn Scrapper](#2-Albertheijn-Scrapper)
