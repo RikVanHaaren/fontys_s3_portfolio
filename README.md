@@ -288,13 +288,7 @@ Hierboven bevindt zich de learning outcome 'Software quality'. Hier je meer leze
 _Group project_<br/>
 
 ## 2.7 Business processes
-**|DONE|<br>**
-_Individual project_<br/>
-I have a Business Process Modeling Notation (BPMN) about a login process in the application with the tool Studio Creatio. This process clearly displays the options of what happens if a user cannot log in and what platforms the user uses. Below you can see the result of the process.
-
-![Process-MxBikesClient_Login](./utils/Process-MxBikesClient_Login.png)
-
-_Group project_<br/>
+**|NeedsCheck|<br>**
 what?
 Hierdoor kwam ik tot de conclusie dat ik gebruik wilde maken van de ‘Business Process Modeling Notation’ (BPMN). Ik heb hiervoor gekozen omdat de primary goal is om business process management for het bedrijf en voor de technische gebruiker ondersteund. Dit visualiseer ik met Flow elements. 
 
@@ -306,7 +300,10 @@ In dit proces kun je duidelijk inzien wat een reiziger moet doen om in  te kunne
 now what?
 Dit proces weergeeft specifiek wat een reiziger moet doen om in te checken bij NS. Dit proces kan natuurlijk uitgebreid worden naar de verschillende opties die de reiziger kan zien als er iets fout gaat en wat de reiziger dan moet doen om dit op te lossen. Met de kennis die ik heb opgedaan heb ik de capaciteiten om dit verder uit te bereiden.
 
+My First Business processes
+![Process-MxBikesClient_Login](./utils/Process-MxBikesClient_Login.png)
 
+My second Business processes
 ![Process-MxBikesClient_Login](./utils/businessProcess/NS-CheckIn.png)
 
 ## 2.8 Professional
