@@ -254,14 +254,13 @@ Now I can assure the quality of my project and test if the project meets certain
 
 
 ## 2.5 Cultural differences and ethics
-
 ### 2.5.1 Cultural differences
 To begin, within software engineering it is key to recognize and take into account cultural differences. To be more specific it's important to be aware of cultural differences when working with multi-site teams, and adapt your communication, working, and behavior style.
 
 One way of typifying culture or people is to use the color model of Caluwé. When we know what type of color other people or ourselves are, we are able to take this into account and adapt our collaborations to this. Specifically for this learning objective we should have get a workshop, but unfortunately this was cancelled. However, I still did research to identifying people and did the test of Caluwé by myself, which you can see in [this link](./research/colorTest_DeCluwe.md). With the result of this test I reflected on my opinion and how I can apply this to working in a group with different types of people or cultures. I gave my insights in my preferences for working, blind spots and competences and how I adjusted them. You can find this reflection also in the link above.
 
 ### 2.5.2 Ethics
-Talking about ethics, for the learning objective it's relevant that I am aware of ethical aspects in software development and that I adress one of the standard Programming Ethical Guidelines. In this case I used the ‘ACM Code of Ethics and Professional Conduct’. This code is designed to guide the ethical conduct for computing technology in an impactful way. I read the document and made sure all of the (relevant) principles are taken into account. Every principle is supplemented by guidelines, and to give a good understanding of how I worked, I have described one of the guidelines. You can find this [here](./research/etics.md). You can also find an example where a situation is described where the code of Ethics influenced decisions that were taken before and caused some changes.
+Talking about ethics, for the learning objective it's relevant that I am aware of ethical aspects in software development and that I address one of the standard Programming Ethical Guidelines. In this case I used the ‘ACM Code of Ethics and Professional Conduct’. This code is designed to guide the ethical conduct for computing technology in an impactful way. I read the document and made sure all of the (relevant) principles are taken into account. Every principle is supplemented by guidelines, and to give a good understanding of how I worked, I have described one of the guidelines. You can find this [here](./research/etics.md). You can also find an example where a situation is described where the code of Ethics influenced decisions that were taken before and caused some changes.
 
 
 ## 2.6 Requirements and design
@@ -335,10 +334,14 @@ Finally, I spent a lot of time by helping all the group members when they needed
 For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it.  
 [View project](./mxBikesClient_documentation/README.md)
 
+![MxBikesClientHomepage](./utils/MxBikesClientHomepage.png)
+
 # 4. Group Project (IsItLive)
 
 For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it.  
 [View project](./isItLive_documentation/README.md)
+
+![IsItLiveHomepage](./utils/IsItLiveHomepage.png)
 
 # 5. Reflection
 **|DONE|<br>**
