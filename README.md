@@ -254,43 +254,14 @@ Now I can assure the quality of my project and test if the project meets certain
 
 
 ## 2.5 Cultural differences and ethics
-```
-[OUD]
-*Tijdens dit semester heb ik onderzoek gedaan naar de cultural differences and ethics. Omdat ik me nog niet bewust genoeg was van deze termen heb ik onderzoek gedaan naar wat het precies inhield. Hierdoor kwam ik in aanraking met verschillende ethische aspecten in software engineering en heb ik deze op basis van de theorie onderbouwd.
 
-Hiernaar heb ik deze aspecten toegepast in het groepsproject hoe wij als verschillende ontwikkelaars samenwerken.
+### 2.5.1 Cultural differences
+To begin, within software engineering it is key to recognize and take into account cultural differences. To be more specific it's important to be aware of cultural differences when working with multi-site teams, and adapt your communication, working, and behavior style.
 
-Tot slot kwam ik de ‘Code of Ethics and Professional Conduct’ waarvan ik 1 guideline heb uitgewerkt.
+One way of typifying culture or people is to use the color model of Caluwé. When we know what type of color other people or ourselves are, we are able to take this into account and adapt our collaborations to this. Specifically for this learning objective we should have get a workshop, but unfortunately this was cancelled. However, I still did research to identifying people and did the test of Caluwé by myself, which you can see in [this link](./research/colorTest_DeCluwe.md). With the result of this test I reflected on my opinion and how I can apply this to working in a group with different types of people or cultures. I gave my insights in my preferences for working, blind spots and competences and how I adjusted them. You can find this reflection also in the link above.
 
-De onderzoeken, toepassing en guideline is zichtbaar in dit bestand.*
-```
-
-[NEW]<br>
-_culture_
-what?
-Voor dit leerdoel heb ik een van de testen gebruikt die we tijdens een workshop zouden krijgen maar doordat deze niet doorging ben ik hier verder naar gaan onderzoeken. Een deze test praat ik over de ethische aspecten die uit deze test naar voren kwamen en wat ik ervan vind en hoe ik dit kan verbeteren.
-
-[Culturel Diffrence](./research/colorTest_DeCluwe.md)
-
-so what?
-culture 
-Doordat ik hier verder naar gekeken heb en ook stil ben gaan staan waar de verbetering licht kan ik nu beter rekening houden met de eigenschappen die ik nog niet goed beheer. Ook lijkt het me leuk om deze test met collega's te doen zodat ik kan zien waar ze eventueel minder goed in zijn en of hun dat ook vinden.
-
-now what?
-culture 
-Door dit nu te weten ga ik de leerpunten goed opnemen en dit verbeteren in de praktijk. Hiernaast ga ik de test over een tijdje nog een keer doen om te zien of dit daadwerkelijk ook verbeterd is.
-
-_Etics_
-what?
-Hiervoor heb ik een scenario uit het verleden gepakt waar ik verder onderzoek heb. De raakvlakken gaan voornamelijk over ACM Code of Ethics and Professional Conduct en GDPR. Daarnaast vertel ik hoe ik dit verbeterd heb en hoe ik dit kan voorkomen.
-
-so what?
-Doordat ik hierna heb gekeken heb ik een bestaande applicatie moeten aanpassen zodat ik het ethisch vond het zo dat het binnen het wetstelsel viel.
-
-now what?
-Door deze onderzoeken ben ik terug gaan kijken naar hoe ik bepaalde oplossingen aanpak en heb ik gezien dat wat ik doe niet altijd correct is ook al lijkt het op dat moment wel zo. Het is belangrijk om dit vanuit een andere perspectief te bekijken zodat je beter rekening kan houden met de eindgebruikers. Door dit te hebben bekeken is het gemakkelijker om hier de volgende 
-
-[Etics](./research/etics.md)
+### 2.5.2 Ethics
+Talking about ethics, for the learning objective it's relevant that I am aware of ethical aspects in software development and that I adress one of the standard Programming Ethical Guidelines. In this case I used the ‘ACM Code of Ethics and Professional Conduct’. This code is designed to guide the ethical conduct for computing technology in an impactful way. I read the document and made sure all of the (relevant) principles are taken into account. Every principle is supplemented by guidelines, and to give a good understanding of how I worked, I have described one of the guidelines. You can find this [here](./research/etics.md). You can also find an example where a situation is described where the code of Ethics influenced decisions that were taken before and caused some changes.
 
 
 ## 2.6 Requirements and design
