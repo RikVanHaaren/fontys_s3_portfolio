@@ -331,14 +331,14 @@ Finally, I spent a lot of time by helping all the group members when they needed
 <hr/>
 
 # 3. Individual Project (MxBikesClient)
-For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)".
+For my individual project I had chosen an idea that I wanted to create for a long time. It was for a game I played a lot but it had some user experience issues. In this project I solved that problem by automating steps that a user was required to take. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./mxBikesClient_documentation/utils/MxBikesClient_Demo.mp4)".   
 [View project](./mxBikesClient_documentation/README.md)
 
 ![MxBikesClientHomepage](./utils/MxBikesClientHomepage.png)
 
 # 4. Group Project (IsItLive)
 
-For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./isItLive_documentation/utils/IsItLive_Demo.mp4)".
+For the group project we got an asignment from [World of Content](https://worldofcontent.com/nl-nl/). They wanted us to create a live score metric on how much content can internally be found on a reatiler's website. Inside this file every chapter contains learning outcomes that I aquired from creating it. I also created a demo video where you can see each feature of the application "[Demo](./isItLive_documentation/utils/IsItLive_Demo.mp4)".   
 [View project](./isItLive_documentation/README.md)
 
 ![IsItLiveHomepage](./utils/IsItLiveHomepage.png)
