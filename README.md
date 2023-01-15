@@ -54,12 +54,13 @@ Also, the group project is designed and build based on a full stack application.
 <hr/>
 
 ## 2.2 Software quality
-**|NeedsCheck|<br>**
-Voor de kwaliteit van mijn applicatie heb ik ervoor gezorgd dat ik kan verzekeren dat de applicatie op de 4 punten: “tests”, “security”, “performance” and “Static code analysis / code reviews” verantwoord is. Hieronder kun je lezen hoe ik er voor zorg deze punten dat dit ook het geval is
+To ensure the quality of my application, several points are taken into account: tests, security, performance, and Static Code Analysis / Code Reviews. In the paragraphs below you can find how these aspects contribute to the quality of the application.
 
-**Tests**: Ik voer binnen de applicatie verschillende testen uit om de kwaliteit van applicatie te kunnen garanderen en gemakkelijker foutmeldingen kan opsporen. Ik heb hieronder een aantal snippets van verschillende soorten testen staan zodat ik kan laten zien welke ik gebruik.
+### 2.2.1 Tests <br/>
+I conducted several tests within the application in order to ensure the quality, since it's easy to detect errors or issues by doing tests. When the tests are conducted, I am able to solve these issues and errors as soon as possible so the impact on the application is minimalized. Snippets of several tests you can find below.  
 
-- Unit Test, hieronder kun je een voorbeeld zien van een unit test die de functionaliteit test van de handler “GetCommentByModID”. In deze test valideer ik dat in het verzoek wat er gestuurd wordt de input een valide uuid moet hebben die overeenkomt met het formaat. De uitslag van deze test moet een foutmelding geven dat de uuid fout is.
+**Unit Test**
+With a Unit Test, software modules will be tested separately. So, more tests will be developed for each unit. In an ideal state all test cases are independent of other test. This is a way of testing which is fast and thoroughly, and which is easy to implement. In the example below you can find a unit test of the functionality of the handler. “GetCommentByModID”, where I test whether the input has a valid UUID (which corresponds to the format).  When the situation appears that the UUID is wrong, the test should give an error message. 
 
 *Snippet of Test* <br>
 ```golang
@@ -86,7 +87,8 @@ func TestIsValidExpired(t *testing.T) {
 }
 ```
 
-- Integration test, hieronder bevindt zich een een voorbeeld van een integratietest. Met deze test verifieer ik dat als er een correct verzoek naar de handler “GetCommentByID” wordt gestuurd het verwachte resultaat terug komt. De test controleert of de 2 units (handler, repository) correct samenwerken. Het verwachte resultaat van deze functie is dat de gevraagde modID opgehaald wordt uit de database zonder foutmelding.
+**Integration test**
+The next conducted test is an integration test, where individual software modules will be connected and tested as a whole. So, with this test we ensure the different modules actually work together. In the example below, the test checks whether two units (handler and repository) work together correctly, by verifying that if a correct request is sent to the handler "GetCommentByID" the expected result will come back. The expected result of this function means in this case that the requested modID is retrieved from the database without an error message.
 
 *Snippet of Test* <br>
 ```golang
@@ -119,7 +121,10 @@ func TestGetCommentByModID(t *testing.T) {
 }
 ```
 
-- regression, met deze testen kan ik valideren dat de functionaliteiten van een de software functioneel blijven na het toevoegen van nieuwe code. Dit doe ik door in Github alle unit en integratie uit te voeren op het moment als er een wijziging plaatsvindt. Ook voer ik nieuwe testen uit in Postman waar ik de snelheid test maak ook de gehele service die een collectie heeft. Hieronder bevindt zich een snippet waar ik de ‘User’ collectie test. Het test op de snelheid maar ook of een foute of goede input de verwachten resultaat geeft.
+**Regression**
+Finally, regression testing is a method that ensures the application is still working as expected after any code changes, updates or improvements. With this test the overall stability and functionality of the existing features of the application is secured. This is part of the System Test. The regression is tested in GitHub, by conducting all unit and integration tests at the moment a change takes place. I also perform tests in Postman, where
+
+I am able to test the entire back end with all functionalities, including the speed of the application. Below you can find a snippet where the 'User' collection is tested on speed and whether the input gives the expected results.
 
 *Snippet of Test* <br>
 ```javascript
@@ -142,6 +147,7 @@ pm.test("Assure that correct UserID get users", function () {
 pm.test("Assure that empty UserID status 500", function () {
     pm.sendRequest(`${userEndpoint}/`, function (err, response) {
         pm.expect(500).to.eql(response.code);
+
     });
 });
 
@@ -152,10 +158,12 @@ pm.test("Assure that unkown UserID status 500", function () {
 });
 ```
 
+### 2.2.2 Security <br/>
+To ensure security, several measurements are taken. My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This tool created a report which showed the vulnerability risks. I checked whether these risks where no big security risks. Since, this wasn't the case I am able to conclude the application functions in a safe way.
 
-**Security**: My full stack application is tested on common vulnerabilities by a tool called "OWASP ZAP". This created a report based on vulnerabilities risks. I also use SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code.
+I also used SonarCloud to check if there are any security vulnerabilities like connection strings or passwords in my code. Some issues appeared. In example, that there was a connection string and also that I had some duplicated codes. I solved all of the issues that appeared.
 
-For the back-end I knew a common vulnerability that is called "SQL injection". I solved this by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
+Based on my experience, I am also familiar with the common vulnerability ''SQL injection''. Beforhand, I took some measurements to make sure this vulnerability was covered, by using a package named "GORM" that resolves the issue by: "argument placeholders to construct the SQL statement". I also tested this with Postman to assure that it works correctly.
 
 *without protection*
 ![sql injection example](./utils/security/sql_injectionExample.png)
@@ -163,32 +171,37 @@ For the back-end I knew a common vulnerability that is called "SQL injection". I
 *with protection*
 ![sql injection test](./utils/security/sql_injectionTest.png)
 
-
-The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client.
+The front-end has a self-signed ssl certificate for establishing an encrypted link between the server and a client. This....
 ![ssl-certificate](./utils/security/ssl_certificate.png)
+ 
 
-**Performance**:  voor het testen van de performance van mijn applicatie heb ik twee tools gebruikt genaam Postman en Lighthouse. 
+### 2.2.3 Performance <br/>
+In order to test the performance of the application I used two tools named: Postman and Lighthouse, both explained below.
 
-Met Postman voer ik een test uit rechtstreeks naar de Rest-API of een gRPC server zodat ik precies kan zien hoelang het duurde voordat ik een respons heb ontvangen. Dit heb ik in een test gezet zodat ik concluderen dat de response tijd onder 200ms is.
+With Postman I conducted a test which showed how long it takes to receive a response directly from the Rest-API or a gRPC server. Finally with these results, I was able to conclude the response time was below 200 ms.
+
 ```javascript
 pm.test("Response time is less than 200ms", function () {
+
     pm.expect(pm.response.responseTime).to.be.below(200);
+
 });
 ```
+ 
+With the tool Lighthouse, I get a report of how the SPA (Single Page Application) performs. This performance report (with back end and frond end) should be checked with the non-functional requirement to have a response time under 2 seconds. The report shows the page takes 0.9 seconds to be fully interactive. So, this requirement is met.
 
-Met Lighthouse krijg ik een rapport van hoe de SPA (Single Page Application) presteert. Dit performance rapport met de backend en de front-end en zou volgens de volgende Non-functional Requirement: “ The web app Must Have a response time under 2 seconds” gecontroleerd kunnen worden. Uit het rapport blijkt dat de pagina 0.9 seconden nodig heeft volledig interactief te zijn.
-
-Toen ik verder naar het rapport bekijk viel me op dat de performance oranje was met een score van 77. Ik ben specifiek verder op dit onderwerp opzoek gegaan het rapport om te bekijken wat het probleem was.
+I also noticed that the performance score of the report was 77/100 (orange). I did some research to see how this specific score could be improved. I was able to compress the images to a lower quality, which benefits the loading speed of the application. Finally, I realized that running the test in an 'Incognito mode' improved the performance score, since the extensions on my own Chrome profile caused some blocking time. With these changes the performance score is much more improved.
 
 ![lighthouse_report-homepageTotal](./utils/lighthouse_rapport/lighthouse_report-homepageTotal.png)
 [Lighthouse Report original](./utils/lighthouse_rapport/lighthouse_report-homepage.pdf)
 
-Ik heb deze score verbeterd door de afbeeldingen te kompressen naar een lagere kwaliteit. Hierdoor is het nog lichter om de content van de pagina op te halen. Ook moest ik de test in incognito uitvoeren omdat de extensies die op mijn chrome profiel actief waren voor een blocking time zorgden. Met deze verbeteringen is het resultaat flink verbeterd!
-
 ![lighthouse_report-homepageTotal](./utils/lighthouse_rapport/lighthouse_report-homepageTotal_fixed.png)
 [Lighthouse Report after fixes](./utils/lighthouse_rapport/lighthouse_report-homepage_fixed.pdf)
 
-**Static code analysis / code reviews**: hiervoor gebruik een een tool genaamd SolarCloud. Ik krijg hier in een overzicht wat de huidige kwaliteit van een repository is. In dit overzicht kan ik inzien: “Reliability”, “Maintainability”, “Security”, “Security Review” and “Duplications”. Ook heb ik dit toegevoed als continuous integration zodat in Github zichtbaar is of de code voldoet aan de eisen.
+ 
+
+### 2.2.4 Static Code Analysis / code reviews
+Static Code Analysis is the process of detecting bad coding style, potential vulnerabilities, and security flaws in a software's source code without actually running it. I used a tool named SolarCloud, to run an analysis. This provides an overview of the current quality of a repository, in which I can see results on "Reliability", "Maintainability", "Security", "Security Review" and "Duplications". I also added this as a continuous integration, so that GitHub shows whether the code meets the requirements.
 
 ![sonarcloud](./utils/sonarcloud.png)
 
@@ -277,13 +290,19 @@ Door deze onderzoeken ben ik terug gaan kijken naar hoe ik bepaalde oplossingen 
 ## 2.6 Requirements and design
 **|NeedsCheck|<br>**
 _Individual project_<br/>
-Ik heb de non-functional requirements vertaald naar een microservice architectuur waar de logica goed verdeeld is in verschillende services en dit overlegd met de stakeholder/ Hans Heumen. Op basis van de acceptatie testen **TODO: add acceptatie testen** kan ik garanderen dat de applicatie naar behoren werkt. Ook heb ik rekening gehouden met qualiteit van de eigenschappen doordat ik “Software quality” heb uitgezocht en toegepast met verschillende testen.
+What
+Ik heb de non-functional requirements vertaald naar een microservice architectuur waar de logica goed verdeeld is in verschillende services en dit overlegd met de stakeholder/ Hans Heumen. Deze architectuur diagrammen bevinden zich in het volgende bestand: ‘(Architecture)[./mxBikesClient_documentation/architectureDesignDocument.md]’.
 
-De architectuur is zichtbaar in het volgende [document](./mxBikesClient_documentation/architectureDesignDocument.md) en de requirements zijn zichtbaar in dit [document](./mxBikesClient_documentation/requirements.md).
+Ook heb ik een testplan opgesteld waar ik de requirements test op stapsgewijze manier. Een van de onderdelen die hier naar voren komen zijn user acceptance testen en feedback validatie van een stakeholder om de kwaliteit van de requirements vast te stellen.‘ (Testing Documentation)[./mxBikesClient_documentation/testingDocumentation.md]’.
 
-Ik heb tijdens dit project mijn non-functional requirements vertaald naar een microservice architectuur.
+Hiernaast is er een demo van de applicatie gegeven waar we alle functionaliteiten handmatig getest is en hebben we we dit geëvalueerd met de quality properties zoals security en performance. 
 
-Hierboven bevindt zich de learning outcome 'Software quality'. Hier je meer lezen hoe ik de qualiteit van deze applicatie
+So what
+Hierdoor kan ik garanderen dat de opgestelde requirements correct zijn vertaald naar een eind applicatie. Ook kan ik garanderen dat de applicatie voldoet aan de behoefte van de stakeholder en de eventuele eindgebruiker.
+
+now what?
+Eventuele mede ontwikkelaars die zich bij het project voegen kunnen gestructureerd zien hoe de applicatie is opgebouwd en hier dus gemakkelijk mee werken. Ook kunnen de gebruikers gebruik maken van de applicatie zonder dat hier fout in zit (binnen de test kaders).
+
 
 _Group project_<br/>
 
