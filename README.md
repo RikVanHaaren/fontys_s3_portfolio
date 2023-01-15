@@ -313,17 +313,11 @@ Eventuele mede ontwikkelaars die zich bij het project voegen kunnen gestructuree
 _Group project_<br/>
 
 ## 2.7 Business processes
-**|NeedsCheck|<br>**
-what?
-Hierdoor kwam ik tot de conclusie dat ik gebruik wilde maken van de ‘Business Process Modeling Notation’ (BPMN). Ik heb hiervoor gekozen omdat de primary goal is om business process management for het bedrijf en voor de technische gebruiker ondersteund. Dit visualiseer ik met Flow elements. 
+In order to demonstrate the learning objective 'Business Processes', I have chosen to map out a process of public transport (OV). More specific, the process for checking in with an NS OV-chipcard, which is necessary to be able to enter the public transportation. In first instance, I had chosen a process from my individual project about how a user was able to login and which parties were needed for this. But I received feedback from Marc that this was to technical and better could choose a simpler process, in example from a restaurant. I choose for the public transport process, since this I am familiar with this process and it's very simple to.
 
-Voor mijn eerste process had ik een onderdeel uit mijn individuele project gekozen waarbij het process ging over hoe een gebruiker in moet loggen en welke partijen hiervoor nodig waren. Echter bleek na feedback van Marc dit te technisch te zijn. Om dit te voorkomen heb ik een ander process gekozen waar ik dit beter kan voorkomen. Marc gaf eerst als tip om bijvoorbeeld een flow van een restaurant te gebruiken. Dit was alleen erg lastig omdat ik hier nooit gewerkt heb daarom heb ik er voor gekozen om het proces vast te leggen van het inchecken met een NS OV-chipkaart.
+To be able to explain this process, I made use of the method of BPMN (Business Process Modeling Notation). This is a technique for process modelling in a visual way, since the information is put in a diagram that resembles a flowchart and is easy to understand and act upon. It uses standardized symbols and standard notation. The goal of BPMN is to support business processes for both, technical and business users. This seems to have a good fit with the required learning objective. In addition, I choose to visuals the process with Flow Elements.
 
-so what?
-In dit proces kun je duidelijk inzien wat een reiziger moet doen om in  te kunnen checken en dat hij of zij de keuzen heeft om te kunnen kiezen tussen ‘Entrance gate’ of ‘check-in pole’. Ook kun je zien welke handelingen de reiziger moet nemen om tot een conclusie te komen.
-
-now what?
-Dit proces weergeeft specifiek wat een reiziger moet doen om in te checken bij NS. Dit proces kan natuurlijk uitgebreid worden naar de verschillende opties die de reiziger kan zien als er iets fout gaat en wat de reiziger dan moet doen om dit op te lossen. Met de kennis die ik heb opgedaan heb ik de capaciteiten om dit verder uit te bereiden.
+In the flowchart below you can find the elaboration of the process. You can clearly see what a traveler with public transport need to do to be able to check in, which is a necessary process for entering the public transportation like the train or bus. There are different choices to check in: 'Entrance gate' or 'check-in pole'. And, you can also see which actions are necessary for a specific outcome. With this information everyone who wants to get information about this process can use this to understand. However, this is only the basis, it's a possibility to extend this process with other processes or steps. 
 
 My First Business processes
 ![Process-MxBikesClient_Login](./utils/Process-MxBikesClient_Login.png)
