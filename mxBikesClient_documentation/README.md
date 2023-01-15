@@ -12,10 +12,6 @@ I am going to develop a web store where user of the community “MX bikes” can
   - [2.2 UX Documentation](#22-UX-Documentation)
   - [2.3 Architecture Design Document](#23-Architecture-Design-Document)
   - [2.4 Testing Documentation](#24-Testing-Documentation)
-- [3. Process Documentation](#3-Process-Documentation)
-  - [3.1 Roadmap](#31-Roadmap)
-  - [3.2 Metrics](#32-Metrics)
-  - [3.3 Standards](#33-Standards)
 
 ##  1. Introduction
 This document is used as a guide for the directory. In the chapters below you can see what the content is of each file and what learning goal I acquired. You can see the document with all the information if you click on a link below the description.
@@ -46,21 +42,4 @@ This project is based on a complex architecture that is difficult to understand.
 > Learning outcome: [Software quality](/learningOutcomes.md#4-Software-quality)
 
 This project is written with the Test driven development in mind. The tests are written in the document below to assure the expected quality.
-[View file](./testingDocumentation.md) (🚧 this file is still under construction)
-
-
-## 3. Process Documentation
-
-### 3.1 Roadmap
-> Learning outcome: [Professional](/learningOutcomes.md#8-Professional), [Agile method](/learningOutcomes.md#3-Agile-method)
-
-Is is imported to have a roadmap in large projects so you get an understanding where you are and where you want to be. Inside this file you can read about 3 roadmaps to keep track of the project.   
-[View file](./roadmap.md) (⚠️ this file is created with no context)
-
-### 3.2 Metrics
-Metrics are main tools of the agile development proccess that help spot any bottle necks and problems in the code quality before they stall the whole project. Inside this file you can read about these aspects that the project encountered.   
-[View file](./metrics.md) (⚠️ this file is created with no context)
-
-### 3.3 Standards
-It is importend to document the best pratices so that the team can follow every aspect regardless, of when someone joins the project with less experience. This document is all about that.   
-[View file](./standards.md) (⚠️ this file is created with no context)
+[View file](./testingDocumentation.md)
